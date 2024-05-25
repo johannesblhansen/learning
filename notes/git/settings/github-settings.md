@@ -13,3 +13,5 @@ Using the git config command it is possible to see where each config property is
 git config --list --show-origin
 ```
 
+In the section above I have added the username:privateToken directly in the origin url. Then I dont get prompted for it.
+
