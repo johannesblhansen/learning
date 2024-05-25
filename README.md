@@ -1,6 +1,3 @@
-# Hello
+# Hello Learning Project
 
-## Sub sub
-
-### Sub sub sub
-
+## This is the readme for my learning repo
