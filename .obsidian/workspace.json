@@ -23,11 +23,9 @@
             "id": "a4dd0af14376f79c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
-                "mode": "source",
-                "source": false
+                "file": "notes/docker/images/Pasted image 20240527215512.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
+                "file": "notes/docker/images/Pasted image 20240527215512.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
+                "file": "notes/docker/images/Pasted image 20240527215512.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/git/settings/github-settings.md"
+                "file": "notes/docker/images/Pasted image 20240527215512.png"
               }
             }
           }
@@ -159,16 +157,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4dd0af14376f79c",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
+    "notes/docker/manage image and containers/Pasted image 20240531220632.png",
+    "notes/docker/manage image and containers/Pasted image 20240531225937.png",
+    "notes/git/settings/github-settings.md",
     "notes/git/settings/img.png",
     "notes/git/settings/img_1.png",
-    "notes/git/settings/github-settings.md",
     "notes/git/gitignore/gitignore.md",
     "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
     "notes/docker/Docker.md",
     "notes/docker/manage image and containers/Example3. Interactive mode.md",
-    "Pasted image 20240531225937.png",
     "notes/docker/manage image and containers/example3-sourcecode/Dockerfile",
     "notes/docker/manage image and containers/example3-sourcecode/rng.py",
     "notes/docker/manage image and containers/example3-sourcecode",
@@ -178,7 +177,6 @@
     "notes/docker/images/Untitled.md",
     "notes/docker/images/Example2. Containerize a Node App.md",
     "notes/docker/images/Example1. Using a base image.md",
-    "Pasted image 20240531220632.png",
     "notes/docker/Something Else.md",
     "Untitled.canvas",
     "notes/docker/images/example2-sourcecode/Dockerfile",
@@ -187,7 +185,7 @@
     "notes/docker/images/example2-sourcecode/app-code/package.json",
     "notes/docker/images/example2-sourcecode/app-code/public/styles.css",
     "notes/docker/images/example2-sourcecode/app-code/public",
-    "Pasted image 20240527215512.png",
+    "notes/docker/images/Pasted image 20240527215512.png",
     "notes/git/Git.md",
     "notes/docker/TestingCanvas.canvas",
     "README.md",
