@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a294f6a44012075",
+            "id": "a4dd0af14376f79c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
+                "file": "notes/docker/managing data/Managing Data.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a4dd0af14376f79c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "notes/docker/images/Pasted image 20240527215512.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#core_concepts",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/docker/images/Pasted image 20240527215512.png",
+                "file": "notes/docker/managing data/Managing Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/docker/images/Pasted image 20240527215512.png",
+                "file": "notes/docker/managing data/Managing Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/docker/images/Pasted image 20240527215512.png"
+                "file": "notes/docker/managing data/Managing Data.md"
               }
             }
           }
@@ -157,37 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2d98c62b2b7d4e2",
+  "active": "a4dd0af14376f79c",
   "lastOpenFiles": [
+    "notes/docker/managing data/Pasted image 20240602122120.png",
+    "notes/docker/managing data/Pasted image 20240602120729.png",
+    "notes/docker/managing data/Managing Data.md",
+    "notes/docker/managing data/Pasted image 20240602113841.png",
+    "notes/docker/Docker.md",
+    "notes/docker/images and containers/Images and containers.md",
+    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
+    "notes/docker/managing data",
+    "Untitled.canvas",
+    "notes/docker/TestingCanvas.canvas",
+    "notes/docker/Something Else.md",
+    "notes/docker/images and containers/Example2. Containerize a Node App.md",
+    "notes/docker/images and containers/Pasted image 20240527215512.png",
+    "notes/docker/images and containers/Pasted image 20240602083629.png",
     "notes/docker/manage image and containers/Pasted image 20240531220632.png",
     "notes/docker/manage image and containers/Pasted image 20240531225937.png",
     "notes/git/settings/github-settings.md",
     "notes/git/settings/img.png",
     "notes/git/settings/img_1.png",
     "notes/git/gitignore/gitignore.md",
-    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
-    "notes/docker/Docker.md",
     "notes/docker/manage image and containers/Example3. Interactive mode.md",
     "notes/docker/manage image and containers/example3-sourcecode/Dockerfile",
     "notes/docker/manage image and containers/example3-sourcecode/rng.py",
     "notes/docker/manage image and containers/example3-sourcecode",
     "notes/docker/manage image and containers",
-    "notes/docker/images/Images and containers.md",
-    "notes/docker/images/Pasted image 20240527215051.png",
+    "notes/docker/images and containers/Pasted image 20240527215051.png",
     "notes/docker/images/Untitled.md",
-    "notes/docker/images/Example2. Containerize a Node App.md",
-    "notes/docker/images/Example1. Using a base image.md",
-    "notes/docker/Something Else.md",
-    "Untitled.canvas",
-    "notes/docker/images/example2-sourcecode/Dockerfile",
+    "notes/docker/images and containers/Example1. Using a base image.md",
+    "notes/docker/images and containers/example2-sourcecode/Dockerfile",
     "notes/docker/images/example2-sourcecode/Docker",
-    "notes/docker/images/example2-sourcecode/app-code/server.js",
-    "notes/docker/images/example2-sourcecode/app-code/package.json",
-    "notes/docker/images/example2-sourcecode/app-code/public/styles.css",
-    "notes/docker/images/example2-sourcecode/app-code/public",
-    "notes/docker/images/Pasted image 20240527215512.png",
+    "notes/docker/images and containers/example2-sourcecode/app-code/server.js",
+    "notes/docker/images and containers/example2-sourcecode/app-code/package.json",
+    "notes/docker/images and containers/example2-sourcecode/app-code/public/styles.css",
     "notes/git/Git.md",
-    "notes/docker/TestingCanvas.canvas",
     "README.md",
     "2024-05-25.md"
   ]

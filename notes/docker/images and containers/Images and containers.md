@@ -1,4 +1,3 @@
-
 ### Images and containers
 Images are the building blocks of containers. A container is build from an image, or if using OOP way of thinking, the image is the class file and the container is the object instantiated from that class.
 
