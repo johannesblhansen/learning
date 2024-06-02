@@ -23,3 +23,16 @@ To manage volumes use the volumes command:
 ```
 docker volume ls
 ```
+
+Other than volumes, there is a type of external data, that is managed by the user.
+
+![](Pasted%20image%2020240602143247.png)
+A typical usecase could be while developing, so the sourcecode might update very often, and it is annoying to rebuild the image for the container constantly.
+
+Since the bind mount is writable (like a named volume) it is created at container level, and therefore cannot be created in the docker file, but has to be added when starting the container through the cli.
+
+A quick overview:
+
+![](Pasted%20image%2020240602210425.png)
+
+![](Pasted%20image%2020240602212044.png)
