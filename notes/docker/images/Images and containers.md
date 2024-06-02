@@ -30,10 +30,26 @@ CMD ["node", "server.js"]
 ```
 
 So a Dockerfile builds and image. An image builds contianers.
-#### Extending Images 
+##### Extending Images 
 
 Images can be extended, so you use a base image (like the node image). This is the typical usecase.
 [Example2. Containerize a Node App](Example2.%20Containerize%20a%20Node%20App.md)
 
-Images are read only. If you want to make changes, the image needs to be rebuild. 
+Images are read only. If you want to make changes, the image needs to be rebuild.
 
+##### Image tagging (naming for images)
+
+Tagging consist of 2 parts
+
+![[Pasted image 20240602083629.png]]
+#### Image and container relationship
+
+At runtime a container will use image code, which make is possible for the container to be smaller. The code in the image is static, readonly. It has to, as there is still a many to one relationship between containers and images.
+
+##### Image inspect
+#docker_command 
+To get more detailed look at an image, use the inspect command
+```
+docker image inspect some_id
+```
+Here a lot of information of about the image and the containers created from this image can be found. What commands are used, what operating system, what path vars etc etc.
