@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/docker/managing data/Managing Data.md",
+                "file": "notes/docker/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "820c39b207e0156d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/docker/manage image and containers/Example3. Interactive mode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a71f2fe51b9d4296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#core_concepts",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/docker/managing data/Managing Data.md",
+                "file": "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/docker/managing data/Managing Data.md",
+                "file": "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/docker/managing data/Managing Data.md"
+                "file": "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md"
               }
             }
           }
@@ -146,42 +172,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4dd0af14376f79c",
+  "active": "a71f2fe51b9d4296",
   "lastOpenFiles": [
+    "javacode/basic-rest-app/Dockerfile",
+    "javacode/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestController.class",
+    "javacode/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestAppApplication.class",
+    "javacode/basic-rest-app/target/classes/dk/johannes/basic_rest_app",
+    "javacode/basic-rest-app/target/classes/dk/johannes",
+    "javacode/basic-rest-app/target/classes/dk",
+    "javacode/basic-rest-app/target/basic-rest-app-0.0.1-SNAPSHOT.jar.original",
+    "javacode/basic-rest-app/target/basic-rest-app-0.0.1-SNAPSHOT.jar",
+    "javacode/basic-rest-app/target/maven-archiver/pom.properties",
+    "javacode/basic-rest-app/target/maven-archiver",
+    "javacode/basic-rest-app/target/surefire-reports/TEST-dk.johannes.basic_rest_app.BasicRestAppApplicationTests.xml",
+    "notes/docker/manage image and containers/Example3. Interactive mode.md",
+    "notes/docker/images and containers/Example2. Containerize a Node App.md",
+    "notes/docker/images and containers/Example1. Using a base image.md",
+    "notes/docker/Docker.md",
+    "notes/docker/images and containers/Images and containers.md",
+    "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
+    "javacode/basic-rest-app/HELP.md",
+    "notes/docker/arguments and environments/Arguments and environment.md",
+    "notes/docker/arguments and environments/Pasted image 20240604214515.png",
+    "notes/docker/managing data/Managing Data.md",
     "notes/docker/managing data/Pasted image 20240602212044.png",
     "notes/docker/managing data/Pasted image 20240602210425.png",
     "notes/docker/managing data/Pasted image 20240602143247.png",
     "notes/docker/managing data/Pasted image 20240602122120.png",
     "notes/docker/managing data/Pasted image 20240602120729.png",
-    "notes/docker/managing data/Managing Data.md",
     "notes/docker/managing data/Pasted image 20240602113841.png",
-    "notes/docker/Docker.md",
-    "notes/docker/images and containers/Images and containers.md",
     "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
-    "notes/docker/managing data",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas",
     "notes/docker/Something Else.md",
-    "notes/docker/images and containers/Example2. Containerize a Node App.md",
     "notes/docker/images and containers/Pasted image 20240527215512.png",
     "notes/docker/images and containers/Pasted image 20240602083629.png",
     "notes/docker/manage image and containers/Pasted image 20240531220632.png",
-    "notes/docker/manage image and containers/Pasted image 20240531225937.png",
     "notes/git/settings/github-settings.md",
-    "notes/git/settings/img.png",
     "notes/git/gitignore/gitignore.md",
-    "notes/docker/manage image and containers/Example3. Interactive mode.md",
-    "notes/docker/manage image and containers/example3-sourcecode/Dockerfile",
-    "notes/docker/manage image and containers/example3-sourcecode/rng.py",
-    "notes/docker/manage image and containers/example3-sourcecode",
-    "notes/docker/manage image and containers",
     "notes/docker/images/Untitled.md",
-    "notes/docker/images and containers/Example1. Using a base image.md",
-    "notes/docker/images and containers/example2-sourcecode/Dockerfile",
-    "notes/docker/images/example2-sourcecode/Docker",
-    "notes/docker/images and containers/example2-sourcecode/app-code/server.js",
-    "notes/docker/images and containers/example2-sourcecode/app-code/package.json",
-    "notes/docker/images and containers/example2-sourcecode/app-code/public/styles.css",
     "notes/git/Git.md",
     "README.md",
     "2024-05-25.md"
