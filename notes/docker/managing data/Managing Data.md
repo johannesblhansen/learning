@@ -1,4 +1,8 @@
 Managing Data and volumes.
+Away to keep data alive outside containers
+
+Quick summery:
+![](Pasted%20image%2020240606212317.png)
 
 There are 3 kinds of data to consider when using docker.
 

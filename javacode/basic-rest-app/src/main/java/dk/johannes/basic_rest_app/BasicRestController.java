@@ -14,6 +14,7 @@ public class BasicRestController {
     @GetMapping("/hello")
     public ResponseEntity<String> getHello(){
         System.out.println(myEnvThingString);
+
         return ResponseEntity.ok("Hello from in here");
     }
 }
