@@ -39,3 +39,12 @@ docker run --network my-network-name imageToCreateContainerFrom
 ```
 
 
+#### Example using my own services.
+I have 2 java apps, simple rest app and producer app.
+The goal is to add them to my my-network-name and have restapp call the producer on /getSomething
+
+
+##### Important
+Docker does not replace code with ip addresses when resolving ips, it detects outgoing trafic and resolves it there. 
+
+![](Pasted%20image%2020240609223924.png)

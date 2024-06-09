@@ -1,5 +1,7 @@
 ### Core concepts
 #core_concepts
+#main_page
+
 #### [Images and containers](Images%20and%20containers.md)
 #### [Managing images and containers (Docker CLI)](Managing%20images%20and%20containers%20(Docker%20CLI).md)
 
