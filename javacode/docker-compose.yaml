@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  myjavaapp:
+    container_name: "my-basic-rest-app"
+    ports:
+      - "8080:8080"
+    environment:
+      MYENVTHING: fubarCompose
+    build: ./basic-rest-app
+  myproducer:
+    container_name: "my-producer-container"
+    build: ./producer-service

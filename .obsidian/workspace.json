@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a4dd0af14376f79c",
+            "id": "9b5c3c7c8baa65f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javacode/basic-rest-app/Home Grown Example 1 - Simple Rest API app.md",
+                "file": "notes/docker/images and containers/Example1. Using a base image.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9b5c3c7c8baa65f5",
+            "id": "55f49d7733b22586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/docker/containers and network/Container and network.md",
+                "file": "notes/wsl/WSL 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "8080",
+                "query": "exec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/docker/containers and network/Container and network.md",
+                "file": "notes/wsl/WSL 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/docker/containers and network/Container and network.md",
+                "file": "notes/wsl/WSL 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/docker/containers and network/Container and network.md"
+                "file": "notes/wsl/WSL 2.md"
               }
             }
           }
@@ -159,42 +159,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b5c3c7c8baa65f5",
+  "active": "55f49d7733b22586",
   "lastOpenFiles": [
-    "notes/docker/containers and network/Pasted image 20240609223924.png",
-    "javacode/producer-service/target/producer-service-0.0.1-SNAPSHOT.jar.original",
-    "javacode/producer-service/target/test-classes",
-    "javacode/producer-service/target/classes/dk/johannes/producer_service/ProducerServiceApplication.class",
-    "javacode/producer-service/target/classes/dk/johannes/producer_service/ProducerController.class",
-    "javacode/producer-service/target/classes/dk/johannes/producer_service",
-    "javacode/producer-service/target/classes/dk/johannes",
-    "javacode/producer-service/target/classes/dk",
-    "javacode/basic-rest-app/target/basic-rest-app-0.0.1-SNAPSHOT.jar.original",
-    "javacode/basic-rest-app/target/basic-rest-app-0.0.1-SNAPSHOT.jar",
-    "javacode/basic-rest-app/target/maven-archiver/pom.properties",
+    "notes/wsl/Pasted image 20240619211921.png",
+    "notes/wsl/WSL 2.md",
+    "README.md",
+    "notes/kafka/Kafka Docker Setup.md",
+    "kafkacode/kafka-ui/kafka-ui-test.yml",
+    "kafkacode/kafka-ui/README.md",
+    "kafkacode/kafka-ui/kafka-ui/config.yml",
+    "kafkacode/kafka-ui/kafka-ui",
+    "kafkacode/kafka-ui/zk-single-kafka-single-with-ui.yml",
+    "kafkacode/kafka-ui",
+    "kafkacode/zk-single-kafka-single-with-ui.yml",
+    "kafkacode",
+    "notes/kafka/Kafka.md",
+    "notes/docker/images and containers/Example1. Using a base image.md",
     "notes/docker/Docker.md",
+    "notes/wsl",
+    "notes/docker/docker compose/Docker Compose.md",
+    "notes/kafka",
+    "javacode/docker-compose.yaml",
+    "notes/docker/containers and network/Container and network.md",
+    "notes/docker/containers and network/Pasted image 20240609223924.png",
     "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
     "notes/docker/images and containers/Images and containers.md",
-    "notes/docker/containers and network/Container and network.md",
     "javacode/basic-rest-app/Home Grown Example 1 - Simple Rest API app.md",
     "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
     "javacode/producer-service/HELP.md",
     "notes/docker/containers and network/Pasted image 20240609204819.png",
     "notes/docker/containers and network/Pasted image 20240609195405.png",
-    "README.md",
     "notes/docker/managing data/Managing Data.md",
     "notes/docker/managing data/Pasted image 20240606212317.png",
     "notes/docker/arguments and environments/Arguments and environment.md",
     "notes/docker/manage image and containers/Example3. Interactive mode.md",
     "notes/docker/images and containers/Example2. Containerize a Node App.md",
-    "notes/docker/images and containers/Example1. Using a base image.md",
     "notes/docker/arguments and environments/Pasted image 20240604214515.png",
     "notes/docker/managing data/Pasted image 20240602212044.png",
     "notes/docker/managing data/Pasted image 20240602210425.png",
     "notes/docker/managing data/Pasted image 20240602143247.png",
     "notes/docker/managing data/Pasted image 20240602122120.png",
-    "notes/docker/managing data/Pasted image 20240602120729.png",
-    "notes/docker/managing data/Pasted image 20240602113841.png",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas",
     "notes/docker/Something Else.md",
