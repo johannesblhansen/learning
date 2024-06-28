@@ -1,4 +1,5 @@
-Kafka Docker Setup
+Kafka Docker Setup With UI
+#kafka_ui #docker_kafka_example
 
 https://medium.com/@penkov.vladimir/kafka-cluster-with-ui-and-metrics-easy-setup-d12d1b94eccf
 

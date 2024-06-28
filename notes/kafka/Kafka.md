@@ -3,33 +3,12 @@
 
 [The course on udemy](https://alm.udemy.com/course/apache-kafka/learn/lecture/31409100#overview)
 
+[The Theory](The%20Theory.md)
 
-Alternative to free playground
-
-https://www.conduktor.io/alternatives-for-conduktor-playground/
-
-
-Kafka using docker
-https://www.conduktor.io/kafka/how-to-start-kafka-using-docker/
-
-Followed that guide, and pulled a some docker compose files.
-
-To start a single kafka server and a zookeeper
-```
-docker-compose -f zk-single-kafka-single.yml up -d
-```
-Remember there is also a down version of the compose.
+Playground examples using docker.
+[Kafka Docker Setup With UI](Kafka%20Docker%20Setup%20With%20UI.md)
+[Kafka with Docker example with zookeeper](Kafka%20with%20Docker%20example%20with%20zookeeper.md)
 
 
-To execute commands in the container, use docker exec:
-```
-docker exec -it kafka1 /bin/bash
-```
 
-
-When executing commands on the kafka server, it needs a command for bootstrap server. Here I used the hostname from the docker compose file - host.docker.internal:29092
-
-```
-kafka-topics --bootstrap-server host.docker.internal:29092 --list
-```
 
