@@ -1,5 +1,6 @@
 ## Kafka
 #core_concepts 
+#main_page 
 
 [The course on udemy](https://alm.udemy.com/course/apache-kafka/learn/lecture/31409100#overview)
 

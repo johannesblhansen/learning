@@ -30,3 +30,9 @@ This is done as follows:
 
 ![](Pasted%20image%2020240624215436.png)
 
+#### Producer Acknowledgement (acks)
+
+Producer acknowledgement is used to manage durability, depending the replication factor. There are 3 options:
+- 0 - no acks
+- 1 - wait for partition leader acks
+- all - wait for all partition acks

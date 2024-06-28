@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "b530771b15087e6a",
+        "id": "7d40a8b054e92a39",
         "type": "tabs",
         "children": [
           {
-            "id": "409390a683b8f7af",
+            "id": "dbf40d8d24e6bc08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/images/Images and containers.md",
+                "file": "kafka/Theory/The Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd3cfc4d0309471d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kafka/Theory/The Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddd34ea00b4ce4b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kafka/Theory/Replication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cea1e64caa98430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kafka/Theory/Brokers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#main_page",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/images/Images and containers.md",
+                "file": "kafka/Theory/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/images/Images and containers.md",
+                "file": "kafka/Theory/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/images/Images and containers.md"
+                "file": "kafka/Theory/Replication.md"
               }
             }
           }
@@ -146,14 +183,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "409390a683b8f7af",
+  "active": "deb648a0b34775da",
   "lastOpenFiles": [
-    "docker/images/Pasted image 20240602083629.png",
+    "kafka/Theory/Images/Pasted image 20240628065343.png",
+    "kafka/Theory/Images/Pasted image 20240628063444.png",
+    "kafka/Theory/Images/Pasted image 20240628065243.png",
+    "kafka/Theory/Replication.md",
+    "kafka/Theory/The Theory.md",
+    "kafka/Theory/Producers.md",
+    "kafka/Theory/Brokers.md",
+    "kafka/Theory/Images/Pasted image 20240628063006.png",
+    "kafka/Theory/Consumers.md",
+    "kafka/Kafka.md",
+    "docker/Docker.md",
+    "wsl/WSL 2.md",
+    "git/Git.md",
+    "kafka/Examples/Kafka Docker Setup With UI.md",
+    "Untitled",
+    "docker/images/Images and containers.md",
+    "docker/managing data/Pasted image 20240606212317.png",
+    "docker/managing data/Pasted image 20240602212044.png",
+    "docker/managing data/Pasted image 20240602210425.png",
+    "docker/managing data/Pasted image 20240602143247.png",
+    "docker/managing data/Pasted image 20240602122120.png",
+    "docker/managing data/Pasted image 20240602113841.png",
+    "docker/managing data/Managing Data.md",
+    "docker/managing data/Cheat-Sheet-Data-Volumes.pdf",
+    "docker/managing data",
+    "docker/images and containers/example2-sourcecode/app-code/public/styles.css",
+    "docker/images and containers/example2-sourcecode/app-code/server.js",
+    "docker/images and containers/example2-sourcecode/app-code/public",
+    "docker/images and containers/example2-sourcecode/app-code/package.json",
+    "docker/images and containers/example2-sourcecode/app-code",
+    "docker/images and containers/example2-sourcecode/Dockerfile",
+    "docker/images and containers/example2-sourcecode",
+    "docker/images and containers/Pasted image 20240602083629.png",
+    "docker/images and containers/Images and containers.md",
+    "docker/images and containers/Example2. Containerize a Node App.md",
+    "docker/images and containers/Example1. Using a base image.md",
+    "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
+    "docker/containers and network/Container and network.md",
+    "docker/arguments and environments/Arguments and environment.md",
     "docker/manage image and containers/Example3. Interactive mode.md",
     "docker/images/Example2. Containerize a Node App.md",
-    "docker/Docker.md",
     "docker/images/Example1. Using a base image.md",
-    "docker/images/Images and containers.md",
     "docker/manage image and containers/Managing images and containers (Docker CLI).md",
     "git/gitignore/gitignore.md",
     "git/settings/github-settings.md"

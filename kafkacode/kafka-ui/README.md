@@ -4,7 +4,7 @@ Following this [guide](https://medium.com/@penkov.vladimir/kafka-cluster-with-ui
 
 I managed to get the up and running by following guide.
 
-To start the 2 kafkabrokers and kafka-ui:
+To start the 2 kafka brokers and kafka-ui:
 ```
 docker-compose -f kafka-ui-test.yml up
 ```
