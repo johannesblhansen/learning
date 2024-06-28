@@ -27,14 +27,18 @@ x-kafka-env-common: &kafka-env-common
 services:
 
   kafka-0:
+    container_name: "kafkabroker0"
     <<: *kafka-common
     environment:
       <<: *kafka-env-common
       KAFKA_CFG_NODE_ID: 0
     volumes:
       - kafka_0_data:/bitnami/kafka
+    ports:
+      - "9099:9092"
 
   kafka-1:
+    container_name: "kafkabroker1"
     <<: *kafka-common
     environment:
       <<: *kafka-env-common
@@ -65,6 +69,8 @@ services:
 
 networks:
   kafka:
+    name: "kafkanet"
+    external: true
 
 volumes:
   kafka_0_data:

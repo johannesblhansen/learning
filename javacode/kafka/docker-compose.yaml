@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  mykafkaproducer:
+    container_name: "my-kafka-producer"
+    build: ./basic-kafka-producer
+    networks:
+      - "kafka"
+
+networks:
+  kafka:
+    name: "kafkanet"
+    external: true

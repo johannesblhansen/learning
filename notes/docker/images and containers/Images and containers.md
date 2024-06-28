@@ -23,12 +23,20 @@ COPY ./app-code /app
 RUN npm install  
   
 #To start the node app, the command is - node server.js  
-#NOTE using RUN is wrong here. RUN used when creating an image. We want the app to be started at contianer level  
-#Therefore the CMD keyword is used.  
 CMD ["node", "server.js"]
 ```
 
-So a Dockerfile builds and image. An image builds contianers.
+So a Dockerfile builds and image. An image builds containers.
+
+Note the last line here CMD. This will tell docker to execute that command in the container, once it has been build.
+
+There are two noteworthy instructions:
+- ENTRYPOINT
+- CMD
+
+Entry point specifies a stable command always run starting a container, where cmd can be tagged on.
+[blog](https://spacelift.io/blog/docker-entrypoint-vs-cmd)
+
 ##### Extending Images 
 
 Images can be extended, so you use a base image (like the node image). This is the typical usecase.
@@ -43,7 +51,7 @@ Tagging consist of 2 parts
 ![[Pasted image 20240602083629.png]]
 #### Image and container relationship
 
-At runtime a container will use image code, which make is possible for the container to be smaller. The code in the image is static, readonly. It has to, as there is still a many to one relationship between containers and images.
+At runtime a container will use image code, which make is possible for the container to be smaller. The code in the image is static, read-only. It has to, as there is still a many to one relationship between containers and images.
 
 ##### Image inspect
 #docker_command 

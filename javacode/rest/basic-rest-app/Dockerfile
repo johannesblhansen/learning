@@ -6,4 +6,4 @@ COPY ./target/basic-rest-app-0.0.1-SNAPSHOT.jar /jar
 
 ENV MYENVTHING fubar
 
-ENTRYPOINT ["java", "-jar", "basic-rest-app-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "basic-rest-app-0.0.1-SNAPSHOT.jar"]

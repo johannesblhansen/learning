@@ -9,12 +9,14 @@ services:
   myjavaapp:  
     build: ./basic-rest-app
 ```
-This creates a service (really a container) with the name of myjavaapp from the image created from the dockerfile withing the ./basic-rest-app folder.
+This creates a service (really a container) with the name of myjavaapp from the image created from the dockerfile within the ./basic-rest-app folder.
 
 To start it:
 ```
 docker-compose up
 ```
+Note: This might not rebuild the image. If t
+
 
 There is also a down which shuts everything down and cleans up everything.
 ```

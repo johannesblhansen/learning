@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "040c492e1f398581",
+        "id": "1322ecf6ebda8f03",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5c3c7c8baa65f5",
+            "id": "a804bcda7b6971c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/docker/images and containers/Example1. Using a base image.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63f064398966230b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/kafka/Theory/Topic and Partitions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad63d06c4487adc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/kafka/Theory/The Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be1c6efbd0113fce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/kafka/Examples/Kafka Docker Setup With UI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/kafka/Examples/Kafka Docker Setup With UI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/kafka/Examples/Kafka Docker Setup With UI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md"
+                "file": "notes/kafka/Examples/Kafka Docker Setup With UI.md"
               }
             }
           }
@@ -183,55 +146,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be1c6efbd0113fce",
+  "active": "a804bcda7b6971c1",
   "lastOpenFiles": [
+    "javacode/kafka/basic-kafka-producer/target/classes/dk/johannes/basic_kafka_producer/KafkaTopicConfig.class",
+    "javacode/kafka/docker-compose.yaml",
+    "javacode/kafka/basic-kafka-producer/README.md",
+    "notes/kafka/Examples/Kafka with Docker example with zookeeper.md",
+    "notes/kafka/Examples/Kafka Docker Setup With UI.md",
+    "notes/kafka/Kafka.md",
+    "notes/docker/Docker.md",
+    "notes/docker/images and containers/Images and containers.md",
+    "notes/docker/images and containers/Example2. Containerize a Node App.md",
+    "notes/docker/images and containers/Example1. Using a base image.md",
+    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
+    "notes/docker/containers and network/Container and network.md",
+    "notes/docker/arguments and environments/Arguments and environment.md",
+    "notes/docker/managing data/Managing Data.md",
+    "notes/docker/docker compose/Docker Compose.md",
+    "javacode/kafka/basic-kafka-producer/target/basic-kafka-producer-0.0.1-SNAPSHOT.jar.original",
+    "javacode/kafka/basic-kafka-producer/target/basic-kafka-producer-0.0.1-SNAPSHOT.jar",
+    "javacode/kafka/basic-kafka-producer/target/maven-archiver/pom.properties",
+    "javacode/kafka/basic-kafka-producer/target/maven-archiver",
+    "javacode/kafka/basic-kafka-producer/target/surefire-reports/TEST-dk.johannes.basic_kafka_producer.BasicKafkaProducerApplicationTests.xml",
+    "javacode/kafka/basic-kafka-producer/target/surefire-reports/dk.johannes.basic_kafka_producer.BasicKafkaProducerApplicationTests.txt",
+    "javacode/kafka/basic-kafka-producer/target/surefire-reports",
+    "javacode/kafka/basic-kafka-producer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
+    "javacode/kafka/basic-kafka-producer/target/test-classes/dk/johannes/basic_kafka_producer/BasicKafkaProducerApplicationTests.class",
+    "notes/kafka/Theory/Consumers.md",
     "notes/kafka/Theory/Images/Pasted image 20240624224237.png",
     "notes/kafka/Theory/The Theory.md",
-    "notes/kafka/Theory/Consumers.md",
     "notes/kafka/Theory/Producers.md",
     "notes/kafka/Theory/Topic and Partitions.md",
     "notes/kafka/Theory/Images/Pasted image 20240619211921.png",
     "notes/kafka/Theory/Images/Pasted image 20240621214342.png",
-    "notes/kafka/Theory/Images",
     "notes/kafka/Theory/Images/Pasted image 20240624222839.png",
     "notes/kafka/Theory/Images/Pasted image 20240624222701.png",
     "notes/kafka/Theory/Images/Pasted image 20240624222540.png",
     "notes/kafka/Theory/Images/Pasted image 20240624221945.png",
     "notes/kafka/Theory/Images/Pasted image 20240624215436.png",
-    "notes/kafka/Kafka.md",
     "notes/kafka/Theory/Images/Pasted image 20240624215129.png",
     "notes/kafka/Theory/Images/Pasted image 20240624214939.png",
-    "notes/kafka/Theory/Images/Pasted image 20240621221325.png",
-    "notes/kafka/Theory",
-    "notes/kafka/Examples/Kafka Docker Setup With UI.md",
-    "notes/kafka/Examples/Kafka with Docker example with zookeeper.md",
-    "notes/kafka/Examples",
     "notes/wsl/WSL 2.md",
     "README.md",
-    "kafkacode/kafka-ui/kafka-ui-test.yml",
     "kafkacode/kafka-ui/README.md",
-    "kafkacode/kafka-ui/kafka-ui/config.yml",
-    "kafkacode/kafka-ui/kafka-ui",
-    "kafkacode/kafka-ui/zk-single-kafka-single-with-ui.yml",
-    "kafkacode/kafka-ui",
-    "kafkacode/zk-single-kafka-single-with-ui.yml",
-    "kafkacode",
-    "notes/docker/images and containers/Example1. Using a base image.md",
-    "notes/docker/Docker.md",
-    "notes/docker/docker compose/Docker Compose.md",
-    "notes/docker/containers and network/Container and network.md",
-    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
-    "notes/docker/images and containers/Images and containers.md",
     "javacode/basic-rest-app/Home Grown Example 1 - Simple Rest API app.md",
     "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
     "javacode/producer-service/HELP.md",
-    "notes/docker/managing data/Managing Data.md",
-    "notes/docker/arguments and environments/Arguments and environment.md",
     "notes/docker/manage image and containers/Example3. Interactive mode.md",
-    "notes/docker/images and containers/Example2. Containerize a Node App.md",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas",
-    "notes/docker/Something Else.md",
-    "notes/git/settings/github-settings.md"
+    "notes/docker/Something Else.md"
   ]
 }
