@@ -15,7 +15,8 @@ public class KafkaTopicConfig {
     @Bean
     public KafkaAdmin kafkaAdmin() {
         Map<String, Object> configs = new HashMap<>();
-        String bootstrapAddress = "https://localhost:9093"; //This works from inside the same docker network as kafka-0 container
+//        String bootstrapAddress = "https://kafka-0:9092"; //This works from inside the same docker network as kafka-0 container
+        String bootstrapAddress = "https://localhost:9093"; //Works from the new setup with external working
         configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
         return new KafkaAdmin(configs);
     }
