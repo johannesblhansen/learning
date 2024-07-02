@@ -11,11 +11,40 @@
             "id": "b285426b1606b4b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "kafka/Theory/The Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7db19af0c9012969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7dacf210111533ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/Docker.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docker/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docker/Docker.md"
+              }
             }
           }
         ]
@@ -138,19 +171,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b285426b1606b4b6",
+  "active": "7dacf210111533ea",
   "lastOpenFiles": [
+    "docker/What is Docker.md",
+    "docker/Docker.md",
+    "docker/images and containers/Images and containers.md",
     "kafka/Theory/The Theory.md",
+    "kafka/Theory/Zookeeper.md",
     "kafka/Theory/Replication.md",
+    "kafka/Theory/Producers.md",
     "kafka/Theory/Brokers.md",
     "kafka/Theory/Images/Pasted image 20240628065343.png",
     "kafka/Theory/Images/Pasted image 20240628063444.png",
     "kafka/Theory/Images/Pasted image 20240628065243.png",
-    "kafka/Theory/Producers.md",
     "kafka/Theory/Images/Pasted image 20240628063006.png",
     "kafka/Theory/Consumers.md",
     "kafka/Kafka.md",
-    "docker/Docker.md",
     "wsl/WSL 2.md",
     "git/Git.md",
     "kafka/Examples/Kafka Docker Setup With UI.md",
@@ -172,7 +208,6 @@
     "docker/images and containers/example2-sourcecode/app-code",
     "docker/images and containers/example2-sourcecode/Dockerfile",
     "docker/images and containers/example2-sourcecode",
-    "docker/images and containers/Images and containers.md",
     "docker/images and containers/Example2. Containerize a Node App.md",
     "docker/images and containers/Example1. Using a base image.md",
     "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dk.johannes.basic_kakfa_consumer.BasicKakfaConsumerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.148 s -- in dk.johannes.basic_kakfa_consumer.BasicKakfaConsumerApplicationTests
