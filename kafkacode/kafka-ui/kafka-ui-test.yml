@@ -70,7 +70,6 @@ services:
 networks:
   kafka:
     name: "kafkanet"
-    external: true
 
 volumes:
   kafka_0_data:

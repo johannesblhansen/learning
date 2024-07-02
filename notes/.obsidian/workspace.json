@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7d40a8b054e92a39",
+        "id": "ae190bd98def1b2e",
         "type": "tabs",
         "children": [
           {
-            "id": "dbf40d8d24e6bc08",
+            "id": "b285426b1606b4b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kafka/Theory/The Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd3cfc4d0309471d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kafka/Theory/The Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddd34ea00b4ce4b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kafka/Theory/Replication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cea1e64caa98430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kafka/Theory/Brokers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kafka/Theory/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kafka/Theory/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "kafka/Theory/Replication.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,15 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "deb648a0b34775da",
+  "active": "b285426b1606b4b6",
   "lastOpenFiles": [
+    "kafka/Theory/The Theory.md",
+    "kafka/Theory/Replication.md",
+    "kafka/Theory/Brokers.md",
     "kafka/Theory/Images/Pasted image 20240628065343.png",
     "kafka/Theory/Images/Pasted image 20240628063444.png",
     "kafka/Theory/Images/Pasted image 20240628065243.png",
-    "kafka/Theory/Replication.md",
-    "kafka/Theory/The Theory.md",
     "kafka/Theory/Producers.md",
-    "kafka/Theory/Brokers.md",
     "kafka/Theory/Images/Pasted image 20240628063006.png",
     "kafka/Theory/Consumers.md",
     "kafka/Kafka.md",
@@ -217,7 +172,6 @@
     "docker/images and containers/example2-sourcecode/app-code",
     "docker/images and containers/example2-sourcecode/Dockerfile",
     "docker/images and containers/example2-sourcecode",
-    "docker/images and containers/Pasted image 20240602083629.png",
     "docker/images and containers/Images and containers.md",
     "docker/images and containers/Example2. Containerize a Node App.md",
     "docker/images and containers/Example1. Using a base image.md",
