@@ -17,12 +17,16 @@ import java.util.Map;
 @Configuration
 public class KafkaConsumerConfig {
 
-    String bootstrapAddress = "https://localhost:9093"; //Works from the new setup with external working
+    private final KafkaValuesConfig kafkaValuesConfig;
+
+    public KafkaConsumerConfig(KafkaValuesConfig kafkaValuesConfig) {
+        this.kafkaValuesConfig = kafkaValuesConfig;
+    }
 
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
         Map<String, Object> props = new HashMap<>();
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaValuesConfig.getBootstrapAddress());
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "someGroupId");
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
