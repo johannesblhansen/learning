@@ -40,10 +40,10 @@ docker-compose -f kafka-ui-with-external-working.yml up
 
 To use the cli first connect to the container
 ```
-docker exec -it kafka-ui-kafka-0-1 /bin/bash
+docker exec -it kafkabroker0 /bin/bash
 ```
 
 Then kafka cli commands can be used by:
 ```
-kafka-topics.sh --bootstrap-server kafka:9092 --list
+kafka-topics.sh --bootstrap-server kafkabroker0:9092 --list
 ```
