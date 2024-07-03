@@ -3,6 +3,14 @@ services:
   mykafkaproducer:
     container_name: "my-kafka-producer"
     build: ./basic-kafka-producer
+    environment:
+      - bootstrap.address=https://kafkabroker0:9092
+    networks:
+      - "kafka"
+
+  mykafkaconsumer:
+    container_name: "my-kafka-consumer"
+    build: ./basic-kakfa-consumer
     networks:
       - "kafka"
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/Docker.md",
+                "file": "docker/containers and network/Container and network.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#main_page",
+                "query": "inspect",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/Docker.md",
+                "file": "docker/containers and network/Container and network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/Docker.md",
+                "file": "docker/containers and network/Container and network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/Docker.md"
+                "file": "docker/containers and network/Container and network.md"
               }
             }
           }
@@ -173,9 +174,9 @@
   },
   "active": "7dacf210111533ea",
   "lastOpenFiles": [
-    "docker/What is Docker.md",
-    "docker/Docker.md",
     "docker/images and containers/Images and containers.md",
+    "docker/Docker.md",
+    "docker/What is Docker.md",
     "kafka/Theory/The Theory.md",
     "kafka/Theory/Zookeeper.md",
     "kafka/Theory/Replication.md",

@@ -1,9 +1,11 @@
 package dk.johannes.basic_kafka_producer;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
@@ -15,15 +17,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
+@Slf4j
 public class KafkaTopicConfig {
 //    String bootstrapAddress = "https://kafka-0:9092"; //This works from inside the same docker network as kafka-0 container
-    String bootstrapAddress = "https://localhost:9093"; //Works from the new setup with external working
+//    String bootstrapAddress = "https://localhost:9093"; //Works from the new setup with external working
 
+
+    private final KafkaValuesConfig kafkaValuesConfig;
+
+    public KafkaTopicConfig(KafkaValuesConfig kafkaValuesConfig) {
+        this.kafkaValuesConfig = kafkaValuesConfig;
+    }
 
     @Bean
     public KafkaAdmin kafkaAdmin() {
         Map<String, Object> configs = new HashMap<>();
-        configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
+        configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaValuesConfig.getBootstrapAddress());
         return new KafkaAdmin(configs);
     }
 
@@ -35,8 +44,9 @@ public class KafkaTopicConfig {
 
     @Bean
     public ProducerFactory<String, String> producerFactory() {
+        log.info("Using bootstrap server: {}", kafkaValuesConfig.getBootstrapAddress());
         Map<String, Object> configProps = new HashMap<>();
-        configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
+        configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaValuesConfig.getBootstrapAddress());
         configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         configProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         return new DefaultKafkaProducerFactory<>(configProps);
