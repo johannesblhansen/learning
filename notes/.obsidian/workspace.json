@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/containers and network/Container and network.md",
+                "file": "java/JVM Threads and Profiling/JVM Threads And Profiling.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/containers and network/Container and network.md",
+                "file": "java/JVM Threads and Profiling/JVM Threads And Profiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/containers and network/Container and network.md",
+                "file": "java/JVM Threads and Profiling/JVM Threads And Profiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/containers and network/Container and network.md"
+                "file": "java/JVM Threads and Profiling/JVM Threads And Profiling.md"
               }
             }
           }
@@ -172,8 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dacf210111533ea",
+  "active": "deb648a0b34775da",
   "lastOpenFiles": [
+    "Untitled.md",
+    "java/JVM Threads and Profiling/JVM Threads And Profiling.md",
+    "java/JVM Threads and Profiling",
+    "docker/containers and network/Container and network.md",
+    "java",
     "docker/images and containers/Images and containers.md",
     "docker/Docker.md",
     "docker/What is Docker.md",
@@ -191,7 +195,6 @@
     "wsl/WSL 2.md",
     "git/Git.md",
     "kafka/Examples/Kafka Docker Setup With UI.md",
-    "Untitled",
     "docker/images/Images and containers.md",
     "docker/managing data/Pasted image 20240606212317.png",
     "docker/managing data/Pasted image 20240602212044.png",
@@ -208,17 +211,13 @@
     "docker/images and containers/example2-sourcecode/app-code/package.json",
     "docker/images and containers/example2-sourcecode/app-code",
     "docker/images and containers/example2-sourcecode/Dockerfile",
-    "docker/images and containers/example2-sourcecode",
     "docker/images and containers/Example2. Containerize a Node App.md",
     "docker/images and containers/Example1. Using a base image.md",
     "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
-    "docker/containers and network/Container and network.md",
     "docker/arguments and environments/Arguments and environment.md",
     "docker/manage image and containers/Example3. Interactive mode.md",
     "docker/images/Example2. Containerize a Node App.md",
     "docker/images/Example1. Using a base image.md",
-    "docker/manage image and containers/Managing images and containers (Docker CLI).md",
-    "git/gitignore/gitignore.md",
-    "git/settings/github-settings.md"
+    "docker/manage image and containers/Managing images and containers (Docker CLI).md"
   ]
 }
