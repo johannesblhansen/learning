@@ -22,4 +22,3 @@ value. This is done by property:
 ```
 spring.task.execution.pool.core-size=50
 ```
-

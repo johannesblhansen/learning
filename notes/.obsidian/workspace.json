@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Examples/Spring REST service.md",
+                "file": "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Examples/Spring REST service.md",
+                "file": "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Examples/Spring REST service.md",
+                "file": "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Examples/Spring REST service.md"
+                "file": "docker/homegrown examples/simple rest app/Dockerizing a simple app.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "e5a2dc7ca7462e09",
   "lastOpenFiles": [
-    "Examples/Spring REST service.md~",
-    "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
+    "java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
     "Examples/Spring REST service.md",
     "Examples",
-    "Home Grown Example 1 - Simple Rest API app.md",
     "Diary and Todo/Want to explore TODO.md",
-    "java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
     "Diary and Todo",
+    "Examples/Spring REST service.md~",
+    "docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
+    "Home Grown Example 1 - Simple Rest API app.md",
     "java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md~",
     "Readme.md",
     "kafka/Theory/The Theory.md",
@@ -192,7 +192,6 @@
     "docker/managing data/Cheat-Sheet-Data-Volumes.pdf",
     "docker/managing data",
     "docker/images and containers/example2-sourcecode/app-code/public/styles.css",
-    "docker/images and containers/example2-sourcecode/app-code/server.js",
-    "docker/images and containers/example2-sourcecode/app-code/public"
+    "docker/images and containers/example2-sourcecode/app-code/server.js"
   ]
 }

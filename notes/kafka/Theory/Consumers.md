@@ -1,6 +1,6 @@
 Consumer read data from a topic by topic name. It is a ***pull*** model.
 
-Consumers automatically know what broker to read from and how to recover if a partition goes down. The consumer handles the connectivitiy.
+Consumers automatically know what broker to read from and how to recover if a partition goes down. The consumer handles the connectivity.
 
 A consumer reads in order, but only within the partition. There is no guarantee of ordering between partitions:
 
