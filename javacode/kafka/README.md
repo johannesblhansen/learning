@@ -1,4 +1,6 @@
-# Kafka related producers and consumers.
+# Kafka related producers and consumers using spring kafka.
+
+[Spring Kafka](https://docs.spring.io/spring-kafka/reference/index.html)
 
 Small hello world type producers and consumers designed to work with the kafkacluster setup in the kafka-ui folder 
 under kafka code.

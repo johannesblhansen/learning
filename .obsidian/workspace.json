@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "1322ecf6ebda8f03",
+        "id": "a66ea1bf3d831207",
         "type": "tabs",
         "children": [
           {
-            "id": "a804bcda7b6971c1",
+            "id": "f626cca17279026a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/kubernetes/Kubernetes.md",
+                "file": "notes/kafka/Kafka.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7a592fe17ca2a649",
+            "id": "fe95e5c29502f45a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "notes/kubernetes/Concepts and Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "notes/Concurrency (Java)/imags/Pasted image 20240712114826.png"
               }
             }
           }
@@ -82,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 436.5
   },
   "right": {
     "id": "141e5abaacaf8600",
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kubernetes/Concepts and Architecture.md",
+                "file": "notes/Concurrency (Java)/imags/Pasted image 20240712114826.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kubernetes/Concepts and Architecture.md",
+                "file": "notes/Concurrency (Java)/imags/Pasted image 20240712114826.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/kubernetes/Concepts and Architecture.md"
+                "file": "notes/Concurrency (Java)/imags/Pasted image 20240712114826.png"
               }
             }
           }
@@ -159,54 +157,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a592fe17ca2a649",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
-    "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md~",
-    "javacode/rest/basic-rest-app/README.md~",
-    "javacode/rest/producer-service/src/main/resources/application.properties~",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestController.class",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestAppApplication.class",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/AsyncRestGetter.class",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes",
-    "javacode/rest/basic-rest-app/target/classes/dk",
-    "javacode/rest/producer-service/target/classes/dk/johannes/producer_service/ProducerController.class",
-    "notes/security/Pasted image 20240707110124.png",
-    "notes/kubernetes/Concepts and Architecture.md",
-    "notes/kubernetes/Kubernetes.md",
-    "notes/kafka/Theory/Producers.md",
-    "notes/kafka/Theory/The Theory.md",
+    "notes/Concurrency (Java)/Performance Optimization.md",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712114826.png",
+    "notes/Concurrency (Java)/Concurrency.md",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712112235.png",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712112335.png",
+    "notes/Concurrency (Java)/programming notes/Joining Threads.md",
+    "notes/Concurrency (Java)/programming notes/Thread Creation.md",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712113824.png",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712113618.png",
+    "notes/Concurrency (Java)/The problems.md",
+    "notes/Concurrency (Java)/The Theory.md",
+    "Pasted image 20240712112328.png",
+    "notes/Concurrency (Java)/imags/Pasted image 20240712111850.png",
+    "javacode/multithreading/thread-creation/target/classes/org/example/ThreadJoiningMain.class",
+    "javacode/multithreading/thread-creation/target/classes/org/example/ThreadJoiningMain$WaiterThread.class",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/ThreadJoiningMain.java~",
+    "javacode/multithreading/thread-creation/target/classes/org/example/exercises/MultiExecutor.class",
+    "javacode/multithreading/thread-creation/target/classes/org/example/exercises",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/ThreadJoiningMain.java",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises/MultiExecutor.java~",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises/MultiExecutor.java",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises",
+    "javacode/multithreading/thread-creation/src/main/java/org/example/MultiExecutor.java~",
+    "javacode/multithreading/thread-creation/README.md",
+    "notes/Concurrency (Java)/imags/Pasted image 20240710085430.png",
+    "notes/java/JVM Threads and Profiling/JVM Threads And Profiling.md",
     "notes/kafka/Kafka.md",
+    "javacode/kafka/README.md",
+    "notes/kafka/Kafka Programming/Kafka Programming.md",
+    "notes/kafka/Examples/Kafka Docker Setup.md",
+    "docker-services/kafka-ui/README.md",
+    "notes/kafka/Examples/Kafka with Docker example with zookeeper.md",
+    "kafkacode/kafka-ui/README.md",
+    "notes/kafka/Theory/The Theory.md",
     "notes/kafka/Theory/Consumers.md",
+    "notes/kubernetes/Kubernetes.md",
+    "notes/kubernetes/Concepts and Architecture.md",
+    "notes/security/Pasted image 20240707110124.png",
+    "notes/kafka/Theory/Producers.md",
     "notes/security/Https.md",
     "notes/Diary and Todo/Want to explore TODO.md",
-    "notes/security",
     "README.md",
-    "notes/java/JVM Threads and Profiling/JVM Threads And Profiling.md",
     "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
     "notes/git/Git.md",
-    "notes/docker/Docker.md",
     "notes/kubernetes/images/Pasted image 20240706115434.png",
-    "notes/Examples/Spring REST service.md",
-    "notes/kafka/Examples/Kafka Docker Setup With UI.md",
-    "javacode/kafka/basic-kafka-producer/README.md",
-    "notes/kafka/Examples/Kafka with Docker example with zookeeper.md",
-    "notes/docker/images and containers/Images and containers.md",
-    "notes/docker/images and containers/Example2. Containerize a Node App.md",
-    "notes/docker/images and containers/Example1. Using a base image.md",
-    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
-    "notes/docker/containers and network/Container and network.md",
-    "notes/docker/arguments and environments/Arguments and environment.md",
-    "notes/docker/managing data/Managing Data.md",
-    "notes/docker/docker compose/Docker Compose.md",
-    "notes/kafka/Theory/Images/Pasted image 20240624224237.png",
-    "notes/kafka/Theory/Images/Pasted image 20240619211921.png",
-    "notes/kafka/Theory/Images/Pasted image 20240621214342.png",
-    "notes/kafka/Theory/Images/Pasted image 20240624222839.png",
-    "notes/kafka/Theory/Images/Pasted image 20240624222701.png",
-    "notes/kafka/Theory/Images/Pasted image 20240624222540.png",
-    "notes/kafka/Theory/Images/Pasted image 20240624221945.png",
-    "notes/kafka/Theory/Images/Pasted image 20240624215436.png",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]
