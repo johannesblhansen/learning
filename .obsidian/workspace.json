@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "282bb647fcc42d1c",
+            "id": "9795a052af3cbe56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Concurrency (Java)/Concurrency.md",
+                "file": "notes/Concurrency (Java)/Resource Sharing.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Concurrency (Java)/Resource Sharing.md",
+                "file": "javacode/multithreading/error-handling/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,43 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cc20e1ad3961c44",
+  "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "notes/Concurrency (Java)/Concurrency.md",
+    "javacode/multithreading/error-handling/README.md",
     "notes/Concurrency (Java)/Resource Sharing.md",
+    "notes/Concurrency (Java)/Performance Optimization.md",
+    "notes/Concurrency (Java)/Concurrency.md",
+    "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
+    "javacode/multithreading/error-handling/README.md~",
+    "javacode/multithreading/error-handling/src/main/java/org/example/ForcingIncrementError.java~",
+    "javacode/multithreading/error-handling/src/main/java/org/example/ForcingIncrementError.java",
+    "javacode/error-handling/target/classes/org/example/Main.class",
+    "javacode/error-handling/target/classes/org/example/Main$SubtractingThread.class",
+    "javacode/error-handling/target/classes/org/example/Main$AddingThread.class",
+    "javacode/error-handling/target/classes/org/example/Main$Incrementer.class",
+    "javacode/error-handling/target/classes/org/example",
+    "javacode/error-handling/target/classes/org",
+    "javacode/multithreading/error-handling/src/main/java/org/example/Main.java~",
+    "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
     "notes/Concurrency (Java)/The Theory.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/ThreadJoiningMain.java~",
     "notes/Concurrency (Java)/images/Pasted image 20240713204726.png",
     "Pasted image 20240713204701.png",
-    "javacode/multithreading/thread-creation/target/classes/org/example/ThreadJoiningMain.class",
-    "javacode/multithreading/thread-creation/target/classes/org/example/ThreadJoiningMain$WaiterThread.class",
     "notes/Concurrency (Java)/images/Pasted image 20240713143852.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713204129.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713203804.png",
     "Pasted image 20240713203749.png",
-    "notes/Concurrency (Java)/Performance Optimization.md",
     "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713152401.png",
     "javacode/rest/basic-rest-app/README.md",
     "notes/Examples/Spring REST service.md",
-    "notes/Concurrency (Java)/images/Pasted image 20240713144401.png",
     "notes/Concurrency (Java)/Performance Optimization - Latency.md",
     "notes/Diary and Todo/Booklist.md",
     "notes/Diary and Todo/Want to explore TODO.md",
     "notes/wsl/WSL 2.md",
     "notes/kafka/Kafka.md",
-    "notes/Concurrency (Java)/images/Pasted image 20240712114826.png",
     "notes/Concurrency (Java)/programming notes/Joining Threads.md",
     "notes/Concurrency (Java)/programming notes/Thread Creation.md",
     "notes/Concurrency (Java)/The problems.md",
-    "javacode/multithreading/thread-creation/target/classes/org/example/exercises/MultiExecutor.class",
-    "javacode/multithreading/thread-creation/target/classes/org/example/exercises",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/ThreadJoiningMain.java",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises/MultiExecutor.java~",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises/MultiExecutor.java",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/exercises",
-    "javacode/multithreading/thread-creation/src/main/java/org/example/MultiExecutor.java~",
     "javacode/multithreading/thread-creation/README.md",
     "notes/java/JVM Threads and Profiling/JVM Threads And Profiling.md",
     "javacode/kafka/README.md",
@@ -205,8 +205,6 @@
     "notes/kafka/Examples/Kafka with Docker example with zookeeper.md",
     "kafkacode/kafka-ui/README.md",
     "notes/kafka/Theory/The Theory.md",
-    "notes/kafka/Theory/Consumers.md",
-    "notes/kubernetes/Kubernetes.md",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]
