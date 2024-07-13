@@ -23,8 +23,6 @@ public class ThreadJoiningMain {
             }
         });
 
-
-
         System.out.println("Main thread done");
     }
 

@@ -8,6 +8,8 @@
 
 [[Performance Optimization]]
 
+[[Resource Sharing]]
+
 Code notes:
 
 [Thread Creation](programming%20notes/Thread%20Creation.md)
