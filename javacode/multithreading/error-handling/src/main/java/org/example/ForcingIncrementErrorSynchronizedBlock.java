@@ -1,6 +1,6 @@
 package org.example;
 
-public class ForcingIncrementError {
+public class ForcingIncrementErrorSynchronizedBlock {
     public static void main(String[] args) throws InterruptedException {
         Incrementer incrementer = new Incrementer();
         AddingThread addingThread = new AddingThread(incrementer);
@@ -16,13 +16,17 @@ public class ForcingIncrementError {
 
     public static class Incrementer {
         private int counter;
-
+        final Object lock1 = new Object();
         public void increment() {
-            counter++; //non-atomic operation. This is not safe
+            synchronized (lock1) {
+                counter++; //non-atomic operation. This is not safe
+            }
         }
 
         public void subtract() {
-            counter--; //non-atomic operation. This is not safe
+            synchronized (lock1) {
+                counter--; //non-atomic operation. This is not safe
+            }
         }
 
         public int getCounter() {
