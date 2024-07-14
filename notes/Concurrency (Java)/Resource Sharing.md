@@ -10,6 +10,15 @@ An example of this.
 
 [README](javacode/multithreading/error-handling/README.md)
 
+#### Atomic Operation
+An atomic operation:
+*Understanding Atomicity:*  
+*In computer science, atomicity refers to the property of an operation to be executed as a single, indivisible unit. In the context of Java, atomic operations are those that can be performed atomically without interference from other threads. These operations are typically used when dealing with shared data that can be accessed and modified by multiple threads concurrently.*
+[source](https://naveen-metta.medium.com/atomic-operations-in-java-mastering-thread-safety-and-concurrency-7c3360ec0bc5) 
+
+###### Thread-safety
+A shared resource can be shared by multiple threads, without the possibility of creating concurrency related problems such as race conditions, etc etc.
+
 #### Critical Section
 
 When a section of the code is identified as critical, we want to make sure, that when a thread starts executing that section, other threads cannot access the critical section until the initial threads exits.

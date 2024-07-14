@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "atomic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9795a052af3cbe56",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
+    "javacode/multithreading/error-handling/README.md",
+    "notes/Concurrency (Java)/Resource Sharing.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
     "javacode/error-handling/target/classes/org/example/ForcingIncrementErrorSynchronizedBlock.class",
     "javacode/error-handling/target/classes/org/example/ForcingIncrementErrorSynchronizedBlock$SubtractingThread.class",
@@ -159,8 +161,6 @@
     "javacode/error-handling/target/classes/org/example/ForcingIncrementErrorSynchronized$Incrementer.class",
     "javacode/multithreading/error-handling/src/main/java/org/example/ForcingIncrementErrorSynchronizedBlock.java~",
     "javacode/multithreading/error-handling/src/main/java/org/example/ForcingIncrementErrorSynchronized.java~",
-    "javacode/multithreading/error-handling/README.md",
-    "notes/Concurrency (Java)/Resource Sharing.md",
     "notes/Concurrency (Java)/Performance Optimization.md",
     "notes/Concurrency (Java)/Concurrency.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
@@ -174,7 +174,6 @@
     "notes/Concurrency (Java)/images/Pasted image 20240713203804.png",
     "Pasted image 20240713203749.png",
     "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
-    "notes/Concurrency (Java)/images/Pasted image 20240713152401.png",
     "javacode/rest/basic-rest-app/README.md",
     "notes/Examples/Spring REST service.md",
     "notes/Concurrency (Java)/Performance Optimization - Latency.md",
