@@ -26,6 +26,15 @@ Then kafka cli commands can be used by:
 kafka-topics.sh --bootstrap-server kafkabroker0:9092 --list
 ```
 
+Another useful cli command is creating simple consumer from inside the container
+```
+kafka-console-consumer.sh --bootstrap-server kafkabroker0:9092 --topic johannestopic --from-beginning
+```
+Or just creating it from the local machine
+```
+kafka-console-consumer.sh --bootstrap-server localhost:9093 --topic johannestopic --from-beginning
+```
+
 # Kafka cluster with kafka-ui NO ZOOKEEPER
 
 Following this [guide](https://medium.com/@penkov.vladimir/kafka-cluster-with-ui-and-metrics-easy-setup-d12d1b94eccf)
