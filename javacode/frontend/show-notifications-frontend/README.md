@@ -1,26 +1,20 @@
-###### Spring DeferredResult
+### Display Notification Project
+Project building a hello world'ish tutorials together. The project collects inputs from different input sources 
+(REST api, STOMP client message, kafka topic (to come) and gRPC (to come)) puts them on websocket STOMP topic. 
+There is a very basic front end that uses a websocket to show messages in real time.
 
-DeferredResult is a return type in spring used with async request / response patterns. It returns immediately releasing the http worker thread, but the underlying servlet container (typically tomcat), does not send the response to the client until .setResult is called.
-
-The idea is to offload work from the http thread to a worker thread that can block without disturbing the http workers processing other requests.
-
-
-###### Long polling
-
-https://www.baeldung.com/spring-mvc-long-polling
-
-###### Spring events
+#### Spring events
 https://www.baeldung.com/spring-events
 
-
-###### Websocket
+#### Websocket
 
 https://spring.io/guides/gs/messaging-stomp-websocket
 
-STOMP messages
+##### STOMP messages
 https://stomp.github.io/
 
 
 https://docs.spring.io/spring-framework/reference/web/websocket.html
 and
 https://docs.spring.io/spring-framework/reference/web/websocket/stomp.html
+
