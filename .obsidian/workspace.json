@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javacode/frontend/show-notifications-frontend/README.md",
+                "file": "notes/kafka/Theory/Consumers.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "atomic",
+                "query": "group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javacode/frontend/show-notifications-frontend/README.md",
+                "file": "notes/kafka/Theory/Consumers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javacode/frontend/show-notifications-frontend/README.md",
+                "file": "notes/kafka/Theory/Consumers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javacode/frontend/show-notifications-frontend/README.md"
+                "file": "notes/kafka/Theory/Consumers.md"
               }
             }
           }
@@ -148,17 +149,18 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/LongPollController.java~",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/MySomethingHappenedEvent.java~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/MyEventListener.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/MyDeferredResultEvent.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/LongPollController.class",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/MyEventListener.java~",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/MyDeferredResultEvent.java~",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/MyDeferredResultEvent.java",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/MyCallable.class",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/MyCallable.java~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/LongPollController$1.class",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.class",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.java~",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/websocket/MessageToStompTopicSender.class",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/websocket/MessageToStompTopicSender.java~",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.java~",
+    "javacode/frontend/show-notifications-frontend/src/main/resources/static/app.js~",
+    "javacode/frontend/show-notifications-frontend/src/main/resources/application.properties~",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest/UpdateController.class",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MySomethingHappenedEvent.class",
+    "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Examples/Spring REST service.md",
     "notes/kafka/Theory/The Theory.md",
@@ -193,7 +195,6 @@
     "notes/Diary and Todo/Want to explore TODO.md",
     "notes/wsl/WSL 2.md",
     "notes/Concurrency (Java)/programming notes/Joining Threads.md",
-    "notes/Concurrency (Java)/programming notes/Thread Creation.md",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]

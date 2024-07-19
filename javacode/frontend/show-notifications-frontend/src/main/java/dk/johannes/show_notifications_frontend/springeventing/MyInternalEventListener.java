@@ -15,6 +15,6 @@ public class MyInternalEventListener {
 
     @EventListener
     public void doSomethingWithEvent(MySomethingHappenedEvent mySomethingHappenedEvent){
-        messageToStompTopicSender.sendGreeting();
+        messageToStompTopicSender.sendGreeting(mySomethingHappenedEvent.getMessage());
     }
 }

@@ -16,4 +16,8 @@ public class MessageToStompTopicSender {
     public void sendGreeting() {
         simpMessagingTemplate.convertAndSend("/topic/greetings", new EventStringData("StompTopicSender created this"));
     }
+
+    public void sendGreeting(String message) {
+        simpMessagingTemplate.convertAndSend("/topic/greetings", new EventStringData(message));
+    }
 }

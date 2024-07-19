@@ -10,12 +10,12 @@ Consumer also use serialization in the form of deserializers.
 
 ### Consumer Groups
 
-Consumer within the same application (for scaling) can be set up in a consumer group. This is a grouping of consumers that divides an topics partition.
+Consumer within the same application (for scaling) can be set up in a consumer group. This is a grouping of consumers that divides a topics partition.
 Each consumer within the group reads from exclusive partitions:
 
 ![](Pasted%20image%2020240624222540.png)
 
-If additional consumers are added, so there amore consumer than partitions of the topic, the consumers become inactive (in standby):
+If additional consumers are added, so there more consumers than partitions of the topic, the consumers become inactive (in standby):
 
 ![](Pasted%20image%2020240624222701.png)
 
