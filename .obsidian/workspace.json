@@ -149,6 +149,7 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
+    "javacode/frontend/show-notifications-frontend/README.md~",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.class",
     "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.java~",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
@@ -159,7 +160,6 @@
     "javacode/frontend/show-notifications-frontend/src/main/resources/application.properties~",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest/UpdateController.class",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MySomethingHappenedEvent.class",
     "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Examples/Spring REST service.md",
