@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/GRPC/GRPC.md",
+                "file": "notes/GRPC/GRPC coding.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "dd3fec69153c8604",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "notes/GRPC/images/Pasted image 20240720120650.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/GRPC/images/Pasted image 20240720120650.png",
+                "file": "notes/GRPC/GRPC coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/GRPC/images/Pasted image 20240720120650.png",
+                "file": "notes/GRPC/GRPC coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/GRPC/images/Pasted image 20240720120650.png"
+                "file": "notes/GRPC/GRPC coding.md"
               }
             }
           }
@@ -157,26 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2d98c62b2b7d4e2",
+  "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "notes/GRPC/GRPC coding.md",
-    "javacode/grpc/myfirstgrpc/README.md~",
     "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java~",
-    "javacode/grpc/myfirstgrpc/README.md",
+    "notes/GRPC/GRPC.md",
+    "notes/GRPC/images/Pasted image 20240720120650.png",
     "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/JsonPerson.class",
     "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/ProtoVsJsonSeriaTestMain.class",
+    "notes/GRPC/GRPC coding.md",
+    "javacode/grpc/myfirstgrpc/README.md~",
+    "javacode/grpc/myfirstgrpc/README.md",
     "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/InitialPersonMain.class",
     "javacode/grpc/myfirstgrpc/pom.xml~",
     "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java~",
     "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java",
     "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java",
     "javacode/grpc/myfirstgrpc/target/myfirstgrpc-1.0-SNAPSHOT.jar",
-    "notes/GRPC/GRPC.md",
     "notes/Diary and Todo/Want to explore TODO.md",
     "notes/Diary and Todo/Open questions.md",
     "notes/GRPC/images/Pasted image 20240720120013.png",
     "notes/GRPC/What is GRPC.md",
-    "notes/GRPC/images/Pasted image 20240720120650.png",
     "notes/git/Git.md",
     "notes/linux/Tools.md",
     "notes/Diary and Todo/Booklist.md",

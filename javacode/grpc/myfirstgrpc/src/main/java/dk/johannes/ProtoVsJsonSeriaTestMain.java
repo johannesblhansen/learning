@@ -10,11 +10,10 @@ public class ProtoVsJsonSeriaTestMain {
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Person protoPerson = Person.newBuilder().setName("name").setAge(25).build();
         JsonPerson jsonPerson = new JsonPerson("name", 25);
-
 
         testSerialization("Json", () -> serializeAndDeserializeJsonPerson(jsonPerson));
         testSerialization("Proto", () -> serializeAndDeserializeProtoPerson(protoPerson));
@@ -23,7 +22,7 @@ public class ProtoVsJsonSeriaTestMain {
 
     private static void serializeAndDeserializeJsonPerson(JsonPerson jsonPerson){
         try {
-            byte[] bytes = objectMapper.writeValueAsBytes(jsonPerson);
+            byte[] bytes = objectMapper.writeValueAsBytes(jsonPerson); //The bytes needed for JsonPerson are many more than for a protoperson.
             objectMapper.readValue(bytes, JsonPerson.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -33,6 +32,7 @@ public class ProtoVsJsonSeriaTestMain {
     private static void serializeAndDeserializeProtoPerson(Person person) {
         try {
             byte[] byteArray = person.toByteArray();
+            System.out.println("Protoperson bytesize:" + byteArray.length);
             Person.parseFrom(byteArray);
         } catch (InvalidProtocolBufferException e) {
             throw new RuntimeException(e);

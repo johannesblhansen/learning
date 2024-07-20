@@ -40,6 +40,6 @@ And to deserialize:
 Person person = Person.parseFrom(Files.readAllBytes(Path.of("this.thing")));
 ```
 
-Note: The serialization is one of places where protobuf (and therefore grpc) shines compared to REST. This is much faster than doing the same using a jackson object mapper.
+Note: The serialization is one of places where protobuf (and therefore grpc) shines compared to REST. This is much faster than doing the same using a jackson object mapper. Also the serialized amount of bytes is a lot less using protobuf
 
 Illustrated by the playground class ProtoVsJsonSeriaTestMain in here: [README](javacode/grpc/myfirstgrpc/README.md)
