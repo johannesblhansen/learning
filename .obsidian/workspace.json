@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/GRPC/GRPC.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd3fec69153c8604",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "notes/GRPC/images/Pasted image 20240720120650.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/GRPC/images/Pasted image 20240720120650.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md",
+                "file": "notes/GRPC/images/Pasted image 20240720120650.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/kafka/Theory/Consumers.md"
+                "file": "notes/GRPC/images/Pasted image 20240720120650.png"
               }
             }
           }
@@ -147,19 +157,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9795a052af3cbe56",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
-    "javacode/frontend/show-notifications-frontend/README.md~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.class",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.java~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/websocket/MessageToStompTopicSender.class",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/websocket/MessageToStompTopicSender.java~",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.java~",
-    "javacode/frontend/show-notifications-frontend/src/main/resources/static/app.js~",
-    "javacode/frontend/show-notifications-frontend/src/main/resources/application.properties~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest/UpdateController.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/rest",
+    "notes/GRPC/GRPC coding.md",
+    "javacode/grpc/myfirstgrpc/README.md~",
+    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java~",
+    "javacode/grpc/myfirstgrpc/README.md",
+    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/JsonPerson.class",
+    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/ProtoVsJsonSeriaTestMain.class",
+    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/InitialPersonMain.class",
+    "javacode/grpc/myfirstgrpc/pom.xml~",
+    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java~",
+    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java",
+    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java",
+    "javacode/grpc/myfirstgrpc/target/myfirstgrpc-1.0-SNAPSHOT.jar",
+    "notes/GRPC/GRPC.md",
+    "notes/Diary and Todo/Want to explore TODO.md",
+    "notes/Diary and Todo/Open questions.md",
+    "notes/GRPC/images/Pasted image 20240720120013.png",
+    "notes/GRPC/What is GRPC.md",
+    "notes/GRPC/images/Pasted image 20240720120650.png",
+    "notes/git/Git.md",
+    "notes/linux/Tools.md",
+    "notes/Diary and Todo/Booklist.md",
+    "notes/kafka/Theory/Consumers.md",
     "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Examples/Spring REST service.md",
@@ -177,24 +198,12 @@
     "notes/Concurrency (Java)/Resource Sharing.md",
     "javacode/multithreading/error-handling/README.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
-    "notes/Concurrency (Java)/Performance Optimization.md",
-    "notes/Concurrency (Java)/Concurrency.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
-    "notes/Concurrency (Java)/The Theory.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713204726.png",
     "Pasted image 20240713204701.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713143852.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713204129.png",
-    "notes/Concurrency (Java)/images/Pasted image 20240713203804.png",
-    "Pasted image 20240713203749.png",
-    "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
-    "javacode/rest/basic-rest-app/README.md",
-    "notes/Concurrency (Java)/Performance Optimization - Latency.md",
-    "notes/Diary and Todo/Booklist.md",
-    "notes/Diary and Todo/Want to explore TODO.md",
-    "notes/wsl/WSL 2.md",
-    "notes/Concurrency (Java)/programming notes/Joining Threads.md",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]
