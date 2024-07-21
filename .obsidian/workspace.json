@@ -11,12 +11,8 @@
             "id": "9795a052af3cbe56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/GRPC/What is GRPC.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/GRPC/What is GRPC.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,33 +140,32 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Protosetup.java",
-    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/PersonOrBuilder.java",
-    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Person.java",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/audit_context.proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/attribute_context.proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/log_severity.proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/http_request.proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/geo/type/viewport.proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/cloud/audit/audit_log.proto",
-    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto",
-    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/type/timeofday.proto",
-    "javacode/grpc/proto-playground/README.md",
-    "javacode/grpc/myfirstgrpc/README.md",
-    "notes/GRPC/Protobuf.md",
-    "notes/GRPC/GRPC.md",
-    "notes/GRPC/What is GRPC.md",
-    "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/linux/Tools.md",
+    "notes/linux",
     "notes/GRPC/images/Pasted image 20240721114150.png",
     "notes/GRPC/images/Pasted image 20240720120650.png",
-    "notes/Diary and Todo/Want to explore TODO.md",
-    "notes/Diary and Todo/Open questions.md",
     "notes/GRPC/images/Pasted image 20240720120013.png",
+    "notes/GRPC/images",
+    "notes/GRPC/What is GRPC.md",
+    "notes/GRPC/Protobuf.md",
+    "notes/GRPC/GRPC.md",
+    "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/GRPC",
+    "notes/Diary and Todo/Open questions.md",
+    "javacode/grpc/proto-playground/src/main/proto/protosetup.proto",
+    "javacode/grpc/proto-playground/src/main/proto",
+    "javacode/grpc/proto-playground/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java",
+    "javacode/grpc/proto-playground/src/main/java/dk/johannes/InitialPersonMain.java",
+    "javacode/grpc/proto-playground/src/main/java/dk/johannes",
+    "javacode/grpc/proto-playground/src/main/java/dk",
+    "javacode/grpc/proto-playground/src/main/java",
+    "javacode/grpc/proto-playground/README.md",
+    "javacode/frontend/show-notifications-frontend/README.md",
+    "javacode/grpc/myfirstgrpc/README.md",
+    "notes/Diary and Todo/Want to explore TODO.md",
     "notes/git/Git.md",
-    "notes/linux/Tools.md",
     "notes/Diary and Todo/Booklist.md",
     "notes/kafka/Theory/Consumers.md",
-    "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Examples/Spring REST service.md",
     "notes/kafka/Theory/The Theory.md",
