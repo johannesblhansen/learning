@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/kafka/Theory/The Theory.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "atomic",
+                "query": "group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kafka/Theory/The Theory.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kafka/Theory/The Theory.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/kafka/Theory/The Theory.md"
+                "file": "notes/GRPC/What is GRPC.md"
               }
             }
           }
@@ -148,52 +148,52 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "notes/kafka/Theory/Zookeeper.md",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Protosetup.java",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/PersonOrBuilder.java",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Person.java",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/audit_context.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/attribute_context.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/log_severity.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/http_request.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/geo/type/viewport.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/cloud/audit/audit_log.proto",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/type/timeofday.proto",
+    "javacode/grpc/proto-playground/README.md",
+    "javacode/grpc/myfirstgrpc/README.md",
+    "notes/GRPC/Protobuf.md",
+    "notes/GRPC/GRPC.md",
+    "notes/GRPC/What is GRPC.md",
+    "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/GRPC/images/Pasted image 20240721114150.png",
+    "notes/GRPC/images/Pasted image 20240720120650.png",
+    "notes/Diary and Todo/Want to explore TODO.md",
+    "notes/Diary and Todo/Open questions.md",
+    "notes/GRPC/images/Pasted image 20240720120013.png",
+    "notes/git/Git.md",
+    "notes/linux/Tools.md",
+    "notes/Diary and Todo/Booklist.md",
+    "notes/kafka/Theory/Consumers.md",
+    "javacode/frontend/show-notifications-frontend/README.md",
+    "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
+    "notes/Examples/Spring REST service.md",
     "notes/kafka/Theory/The Theory.md",
+    "notes/kafka/Theory/Zookeeper.md",
     "Java Programming.md",
-    "javacode/kafka/kafka/README.md~",
-    "notes/kafka/Kafka Programming/Kafka Programming.md~",
     "javacode/kafka/kafka/README.md",
     "notes/kafka/Theory/Java Programming.md",
     "notes/kafka/Kafka Programming/Kafka Programming.md",
-    "docker-services/kafka-ui/README.md~",
-    "javacode/kafka/kafka/kafka-producer/target/classes/dk/johannes/KafkaProducerMain.class",
-    "javacode/kafka/kafka/kafka-producer/src/main/java/dk/johannes/KafkaProducerMain.java~",
-    "javacode/kafka/kafka/kafka-producer/README.md~",
     "javacode/kafka/kafka/kafka-producer/README.md",
-    "javacode/kafka/kafka/kafka-producer/src/main/java/dk/johannes/KafkaProducerMain.java",
-    "javacode/kafka/kafka/kafka-producer/src/main/java/dk/johannes/KafkaProducer.java",
-    "javacode/kafka/kafka/kafka-producer/target/kafka-producer-1.0-SNAPSHOT.jar",
-    "javacode/kafka/kafka/kafka-producer/target/maven-archiver/pom.properties",
     "javacode/kafka/spring-kafka/README.md",
     "javacode/kafka/spring-kafka/basic-kakfa-consumer/README.md",
     "javacode/kafka/spring-kafka/basic-kafka-producer/README.md",
     "notes/kafka/Kafka.md",
-    "notes/Concurrency (Java)/Resource Sharing.md",
-    "javacode/multithreading/error-handling/README.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
-    "notes/Concurrency (Java)/Performance Optimization.md",
-    "notes/Concurrency (Java)/Concurrency.md",
-    "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
-    "notes/Concurrency (Java)/The Theory.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713204726.png",
     "Pasted image 20240713204701.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713143852.png",
-    "notes/Concurrency (Java)/images/Pasted image 20240713204129.png",
-    "notes/Concurrency (Java)/images/Pasted image 20240713203804.png",
-    "Pasted image 20240713203749.png",
-    "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
-    "javacode/rest/basic-rest-app/README.md",
-    "notes/Examples/Spring REST service.md",
-    "notes/Concurrency (Java)/Performance Optimization - Latency.md",
-    "notes/Diary and Todo/Booklist.md",
-    "notes/Diary and Todo/Want to explore TODO.md",
-    "notes/wsl/WSL 2.md",
-    "notes/Concurrency (Java)/programming notes/Joining Threads.md",
-    "notes/Concurrency (Java)/programming notes/Thread Creation.md",
-    "notes/Concurrency (Java)/The problems.md",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]
