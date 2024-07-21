@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/GRPC/GRPC coding.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/GRPC/GRPC coding.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/GRPC/GRPC coding.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/GRPC/GRPC coding.md"
+                "file": "notes/GRPC/What is GRPC.md"
               }
             }
           }
@@ -148,24 +148,28 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
-    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java~",
-    "notes/GRPC/GRPC.md",
-    "notes/GRPC/images/Pasted image 20240720120650.png",
-    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/JsonPerson.class",
-    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/ProtoVsJsonSeriaTestMain.class",
-    "notes/GRPC/GRPC coding.md",
-    "javacode/grpc/myfirstgrpc/README.md~",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Protosetup.java",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/PersonOrBuilder.java",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto/Person.java",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/audit_context.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/rpc/context/attribute_context.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/log_severity.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/logging/type/http_request.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/geo/type/viewport.proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/cloud/audit/audit_log.proto",
+    "javacode/grpc/proto-playground/target/generated-sources/protobuf/java/dk/johannes/proto",
+    "javacode/grpc/proto-playground/target/protoc-dependencies/f22169a5723e36d028abb4e48d094c18/google/type/timeofday.proto",
+    "javacode/grpc/proto-playground/README.md",
     "javacode/grpc/myfirstgrpc/README.md",
-    "javacode/grpc/myfirstgrpc/target/classes/dk/johannes/InitialPersonMain.class",
-    "javacode/grpc/myfirstgrpc/pom.xml~",
-    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java~",
-    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/InitialPersonMain.java",
-    "javacode/grpc/myfirstgrpc/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java",
-    "javacode/grpc/myfirstgrpc/target/myfirstgrpc-1.0-SNAPSHOT.jar",
+    "notes/GRPC/Protobuf.md",
+    "notes/GRPC/GRPC.md",
+    "notes/GRPC/What is GRPC.md",
+    "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/GRPC/images/Pasted image 20240721114150.png",
+    "notes/GRPC/images/Pasted image 20240720120650.png",
     "notes/Diary and Todo/Want to explore TODO.md",
     "notes/Diary and Todo/Open questions.md",
     "notes/GRPC/images/Pasted image 20240720120013.png",
-    "notes/GRPC/What is GRPC.md",
     "notes/git/Git.md",
     "notes/linux/Tools.md",
     "notes/Diary and Todo/Booklist.md",
@@ -184,15 +188,12 @@
     "javacode/kafka/spring-kafka/basic-kakfa-consumer/README.md",
     "javacode/kafka/spring-kafka/basic-kafka-producer/README.md",
     "notes/kafka/Kafka.md",
-    "notes/Concurrency (Java)/Resource Sharing.md",
-    "javacode/multithreading/error-handling/README.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713204726.png",
     "Pasted image 20240713204701.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713143852.png",
-    "notes/Concurrency (Java)/images/Pasted image 20240713204129.png",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]

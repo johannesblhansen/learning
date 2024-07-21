@@ -1,5 +1,7 @@
 GRPC is a framework for building service to service api's.
 
+It uses protobufs for data transfer and http 2 protocol.
+
 ##### Motivation:
 Api's build with grpc are much faster and more efficient than json, as the data transferred is not in text format (like REST is typically json), protobuf but binary. That means smaller packages and less cpu on serialization and deserialization.
 It supports has streaming on top of normal unary request / response type communication.
