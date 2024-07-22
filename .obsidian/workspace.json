@@ -11,8 +11,12 @@
             "id": "9795a052af3cbe56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/GRPC/GRPC (lets use the protobuf).md"
+              }
             }
           }
         ]
@@ -140,25 +148,26 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/UnaryServiceMain.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/UnaryServiceMain.java",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/MyGrpcService.java~",
+    "notes/GRPC/GRPC.md",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/Main.class",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/Main.java~",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/GrpcServer.class",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/MyResponseOrBuilder.class",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/MyResponse.class",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/MyResponse$1.class",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/MyResponse$Builder.class",
+    "javacode/grpc/grpc-server/target/classes/dk/johannes/proto/MyRequestOrBuilder.class",
     "notes/linux/Tools.md",
-    "notes/linux",
     "notes/GRPC/images/Pasted image 20240721114150.png",
     "notes/GRPC/images/Pasted image 20240720120650.png",
     "notes/GRPC/images/Pasted image 20240720120013.png",
-    "notes/GRPC/images",
     "notes/GRPC/What is GRPC.md",
     "notes/GRPC/Protobuf.md",
-    "notes/GRPC/GRPC.md",
     "notes/GRPC/GRPC (lets use the protobuf).md",
-    "notes/GRPC",
     "notes/Diary and Todo/Open questions.md",
-    "javacode/grpc/proto-playground/src/main/proto/protosetup.proto",
-    "javacode/grpc/proto-playground/src/main/proto",
-    "javacode/grpc/proto-playground/src/main/java/dk/johannes/ProtoVsJsonSeriaTestMain.java",
-    "javacode/grpc/proto-playground/src/main/java/dk/johannes/InitialPersonMain.java",
-    "javacode/grpc/proto-playground/src/main/java/dk/johannes",
-    "javacode/grpc/proto-playground/src/main/java/dk",
-    "javacode/grpc/proto-playground/src/main/java",
     "javacode/grpc/proto-playground/README.md",
     "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/grpc/myfirstgrpc/README.md",
