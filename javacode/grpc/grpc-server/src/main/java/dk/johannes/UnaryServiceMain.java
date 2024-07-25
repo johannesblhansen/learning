@@ -8,7 +8,7 @@ import java.io.IOException;
 public class UnaryServiceMain {
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        Server server = ServerBuilder.forPort(6565).addService(new MyGrpcService()).build();
+        Server server = ServerBuilder.forPort(6565).addService(new UnaryGRPCService()).build();
         server.start();
         server.awaitTermination();
     }
