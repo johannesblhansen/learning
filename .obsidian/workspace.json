@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
+                "file": "notes/Concurrency (Java)/Resource Sharing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8420ec368f1335f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Concurrency (Java)/programming notes/Thread Creation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "group",
+                "query": "Thread safe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
+                "file": "notes/Concurrency (Java)/Resource Sharing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/GRPC/GRPC (lets use the protobuf).md",
+                "file": "notes/Concurrency (Java)/Resource Sharing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/GRPC/GRPC (lets use the protobuf).md"
+                "file": "notes/Concurrency (Java)/Resource Sharing.md"
               }
             }
           }
@@ -148,6 +161,23 @@
   },
   "active": "9795a052af3cbe56",
   "lastOpenFiles": [
+    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsyncUnaryClientMain.java~",
+    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsyncUnaryClientMain.java",
+    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsycnUnaryClientMain.java~",
+    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsycnUnaryClientMain.java",
+    "notes/Concurrency (Java)/Concurrency.md",
+    "notes/Concurrency (Java)/programming notes/Thread Creation.md",
+    "notes/Concurrency (Java)/Performance Optimization.md",
+    "notes/Concurrency (Java)/The Problems.md",
+    "notes/Concurrency (Java)/Resource Sharing.md",
+    "notes/Concurrency (Java)/Performance Optimization - Latency.md",
+    "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
+    "notes/Concurrency (Java)/programming notes/Joining Threads.md",
+    "javacode/multithreading/error-handling/README.md",
+    "Java Programming.md",
+    "notes/Concurrency (Java)/The Theory.md",
+    "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
+    "notes/GRPC/GRPC (lets use the protobuf).md",
     "javacode/grpc/grpc-client/src/main/java/dk/johannes/UnaryClientMain.java~",
     "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/GrpcServer.class",
     "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyResponseOrBuilder.class",
@@ -155,10 +185,6 @@
     "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyResponse$1.class",
     "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyResponse$Builder.class",
     "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyRequestOrBuilder.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyRequest.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyRequest$1.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyRequest$Builder.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/MyServiceNameGrpc.class",
     "notes/GRPC/images/Pasted image 20240723203038.png",
     "notes/GRPC/images/Pasted image 20240722090459.png",
     "javacode/grpc/grpc-server/README.md",
@@ -169,7 +195,6 @@
     "notes/GRPC/images/Pasted image 20240720120013.png",
     "notes/GRPC/What is GRPC.md",
     "notes/GRPC/Protobuf.md",
-    "notes/GRPC/GRPC (lets use the protobuf).md",
     "notes/Diary and Todo/Open questions.md",
     "javacode/grpc/proto-playground/README.md",
     "javacode/frontend/show-notifications-frontend/README.md",
@@ -177,19 +202,7 @@
     "notes/Diary and Todo/Want to explore TODO.md",
     "notes/git/Git.md",
     "notes/Diary and Todo/Booklist.md",
-    "notes/kafka/Theory/Consumers.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
-    "notes/Examples/Spring REST service.md",
-    "notes/kafka/Theory/The Theory.md",
-    "notes/kafka/Theory/Zookeeper.md",
-    "Java Programming.md",
-    "javacode/kafka/kafka/README.md",
-    "notes/kafka/Theory/Java Programming.md",
-    "notes/kafka/Kafka Programming/Kafka Programming.md",
-    "javacode/kafka/kafka/kafka-producer/README.md",
-    "javacode/kafka/spring-kafka/README.md",
-    "javacode/kafka/spring-kafka/basic-kakfa-consumer/README.md",
-    "javacode/kafka/spring-kafka/basic-kafka-producer/README.md",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",

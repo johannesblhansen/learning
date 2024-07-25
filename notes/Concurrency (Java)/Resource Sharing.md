@@ -17,8 +17,14 @@ An atomic operation:
 [source](https://naveen-metta.medium.com/atomic-operations-in-java-mastering-thread-safety-and-concurrency-7c3360ec0bc5) 
 
 ###### Thread-safety
+#thread-safe
+
 A shared resource can be shared by multiple threads, without the possibility of creating concurrency related problems such as race conditions, etc etc.
 
+Another definition:
+https://www.turing.com/kb/thread-safety-in-java-and-implementation
+
+*Thread safety happens in a function. A function is said to be thread-safe if and only if it produces correct results when called repeatedly from multiple concurrent threads.*
 #### Critical Section
 
 When a section of the code is identified as critical, we want to make sure, that when a thread starts executing that section, other threads cannot access the critical section until the initial threads exits.

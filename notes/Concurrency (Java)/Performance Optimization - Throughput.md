@@ -19,7 +19,7 @@ Each task is assigned to a thread and completed by that thread, which is then av
 
 Creating a thread pool implementation is hard, but JDK comes with a bunch of them to use.
 
-A common example of optimizing for throughput is an http server. I have played around with here: [README](javacode/rest/basic-rest-app/README.md#Use Case: Overloading a Tomcat embedded server)
+A common example of optimizing for throughput is an http server (like tomcat / netty). I have played around with here: [README](javacode/rest/basic-rest-app/README.md#Use Case: Overloading a Tomcat embedded server)
 
 To maximize performance for non-blocking tasks, the number of threads in the thread pool should be equal to the number of core available. That way the each core will (in theory) be working on task and do no context switching until that task is complete.
 
