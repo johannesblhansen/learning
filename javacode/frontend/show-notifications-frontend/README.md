@@ -18,3 +18,16 @@ and
 https://docs.spring.io/spring-framework/reference/web/websocket/stomp.html
 
 
+
+
+```mermaid
+---
+title: Stream input service
+---
+flowchart LR
+    grpc(grpc) --> service
+    kafka(kafka) --> service
+    rest(rest) --> service
+    websocket(frontend) -- via websocket --> service
+    service -- via websocket --> web(frontend)
+```
