@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "dk.johannes.proto.stream";
+
+message MyBidirectionalStreamRequest {
+  int32 myRequestId = 1;
+  string myRequestMessage = 2;
+}
+
+message MyBidirectionalStreamResponse {
+  int32 myResponseId = 1;
+  string myResponseMessage = 2;
+}
+
+service MyBidirectionalStreamServiceName {
+  rpc GetMyResponse(stream MyBidirectionalStreamRequest) returns (stream MyBidirectionalStreamResponse);
+}
