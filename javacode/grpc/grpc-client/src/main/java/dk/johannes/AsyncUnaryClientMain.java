@@ -1,8 +1,5 @@
 package dk.johannes;
 
-import dk.johannes.proto.MyRequest;
-import dk.johannes.proto.MyResponse;
-import dk.johannes.proto.MyServiceNameGrpc;
 import dk.johannes.proto.stream.MyStreamRequest;
 import dk.johannes.proto.stream.MyStreamResponse;
 import dk.johannes.proto.stream.MyStreamServiceNameGrpc;
@@ -12,6 +9,9 @@ import io.grpc.stub.StreamObserver;
 
 import java.time.Duration;
 
+/**
+ * Async client used for server streaming
+ */
 public class AsyncUnaryClientMain {
     public static void main(String[] args) throws InterruptedException {
 

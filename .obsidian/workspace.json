@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/git/settings/github-settings.md",
+                "file": "notes/GRPC/What is GRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/git/settings/github-settings.md"
+                "file": "notes/GRPC/What is GRPC.md"
               }
             }
           }
@@ -146,22 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1e96c3b396b7e87",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/ServerStreamGRPCService.java~",
+    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsyncUnaryClientMain.java~",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/GrpcStreamServer.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/GrpcServer.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponseOrBuilder.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponse.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponse$1.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponse$Builder.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamRequestOrBuilder.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamRequest.class",
+    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamRequest$1.class",
+    "notes/GRPC/Protobuf.md",
+    "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/GRPC/GRPC.md",
+    "notes/git/settings/github-settings.md",
     "notes/git/settings/img_1.png",
     "notes/git/settings/img.png",
-    "notes/git/settings/github-settings.md",
     "notes/git/gitignore/gitignore.md",
-    "javacode/rest/producer-service/target/classes/dk/johannes/producer_service/ProducerServiceApplication.class",
-    "javacode/rest/producer-service/target/classes/dk/johannes/producer_service/ProducerController.class",
-    "javacode/rest/producer-service/target/classes/dk/johannes/producer_service",
-    "javacode/rest/producer-service/target/classes/dk/johannes",
-    "javacode/rest/producer-service/target/classes/dk",
-    "javacode/rest/producer-service/target/generated-sources/annotations",
-    "javacode/rest/producer-service/target/generated-sources",
-    "javacode/rest/producer-service/target/classes/application.properties",
-    "javacode/rest/producer-service/target/classes",
-    "javacode/rest/producer-service/target",
     "notes/Concurrency (Java)/Resource Sharing.md",
     "notes/Concurrency (Java)/programming notes/Thread Creation.md",
     "notes/Concurrency (Java)/Concurrency.md",
@@ -174,17 +178,14 @@
     "Java Programming.md",
     "notes/Concurrency (Java)/The Theory.md",
     "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
-    "notes/GRPC/GRPC (lets use the protobuf).md",
     "notes/GRPC/images/Pasted image 20240723203038.png",
     "notes/GRPC/images/Pasted image 20240722090459.png",
     "javacode/grpc/grpc-server/README.md",
-    "notes/GRPC/GRPC.md",
     "notes/linux/Tools.md",
     "notes/GRPC/images/Pasted image 20240721114150.png",
     "notes/GRPC/images/Pasted image 20240720120650.png",
     "notes/GRPC/images/Pasted image 20240720120013.png",
     "notes/GRPC/What is GRPC.md",
-    "notes/GRPC/Protobuf.md",
     "notes/Diary and Todo/Open questions.md",
     "javacode/grpc/proto-playground/README.md",
     "javacode/frontend/show-notifications-frontend/README.md",
@@ -193,7 +194,6 @@
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",
-    "notes/Concurrency (Java)/images/Pasted image 20240713205608.png",
     "Untitled.canvas",
     "notes/docker/TestingCanvas.canvas"
   ]
