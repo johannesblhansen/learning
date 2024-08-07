@@ -7,7 +7,6 @@ There is a very basic front end that uses a websocket to show messages in real t
 https://www.baeldung.com/spring-events
 
 #### Websocket
-
 https://spring.io/guides/gs/messaging-stomp-websocket
 
 ##### STOMP messages

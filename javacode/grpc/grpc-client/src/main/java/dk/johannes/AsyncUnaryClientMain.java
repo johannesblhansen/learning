@@ -3,20 +3,40 @@ package dk.johannes;
 import dk.johannes.proto.MyRequest;
 import dk.johannes.proto.MyResponse;
 import dk.johannes.proto.MyServiceNameGrpc;
+import dk.johannes.proto.stream.MyStreamRequest;
+import dk.johannes.proto.stream.MyStreamResponse;
+import dk.johannes.proto.stream.MyStreamServiceNameGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import io.grpc.stub.StreamObserver;
+
+import java.time.Duration;
 
 public class AsyncUnaryClientMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        //Channel i generally created once per application.
-        //Note the channel is managed by the framework.
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 6565).usePlaintext().build();
 
-        //Uses the channel
-        //This is thread safe
-        MyServiceNameGrpc.MyServiceNameBlockingStub myServiceNameBlockingStub = MyServiceNameGrpc.newBlockingStub(channel);
-        MyResponse clientMessage = myServiceNameBlockingStub.getMyResponse(MyRequest.newBuilder().setMyRequestId(1).setMyRequestMessage("client message").build());
-        System.out.println(clientMessage.getMyResponseMessage());
+        MyStreamServiceNameGrpc.MyStreamServiceNameStub myStreamServiceNameStub = MyStreamServiceNameGrpc.newStub(channel);
+        myStreamServiceNameStub.getMyResponse(MyStreamRequest.newBuilder().setMyRequestId(1).setMyRequestMessage("client message").build(), new StreamObserver<>() {
+            @Override
+            public void onNext(MyStreamResponse myResponse) {
+                System.out.println("I got a response from the server");
+                System.out.println(myResponse);
+            }
+
+            @Override
+            public void onError(Throwable throwable) {
+                System.out.println("got error");
+            }
+
+            @Override
+            public void onCompleted() {
+                System.out.println("got completed");
+            }
+        });
+        System.out.println("Starting to sleep");
+        Thread.sleep(Duration.ofSeconds(30));
+
     }
 }
