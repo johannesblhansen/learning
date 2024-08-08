@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md",
-                "mode": "source",
+                "file": "notes/GRPC/GRPC streams implementation.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md",
+                "file": "notes/GRPC/GRPC streams implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md",
+                "file": "notes/GRPC/GRPC streams implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/GRPC/What is GRPC.md"
+                "file": "notes/GRPC/GRPC streams implementation.md"
               }
             }
           }
@@ -146,22 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2d98c62b2b7d4e2",
+  "active": "c1e96c3b396b7e87",
   "lastOpenFiles": [
-    "javacode/grpc/grpc-server/src/main/java/dk/johannes/ServerBidirectionalStreamGRPCService.java~",
-    "javacode/grpc/grpc-server/src/main/java/dk/johannes/ServerBidirectionalStreamGRPCService.java",
-    "javacode/grpc/grpc-client/src/main/proto/grpc-bidirectional-stream-server.proto",
-    "javacode/grpc/grpc-server/src/main/proto/grpc-bidirectional-stream-server.proto~",
-    "javacode/grpc/grpc-server/src/main/proto/grpc-bidirectional-stream-server.proto",
-    "javacode/grpc/grpc-server/src/main/java/dk/johannes/ServerStreamGRPCService.java~",
-    "javacode/grpc/grpc-client/src/main/java/dk/johannes/AsyncUnaryClientMain.java~",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/GrpcStreamServer.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/GrpcServer.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponseOrBuilder.class",
-    "javacode/grpc/grpc-client/target/classes/dk/johannes/proto/stream/MyStreamResponse.class",
-    "notes/GRPC/Protobuf.md",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/RequestHandler.java~",
     "notes/GRPC/GRPC (lets use the protobuf).md",
+    "notes/GRPC/GRPC streams implementation.md",
+    "notes/GRPC/Protobuf.md",
     "notes/GRPC/GRPC.md",
+    "notes/GRPC/What is GRPC.md",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/ClientStreamGRPCService.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/ResponseHandler.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/ResponseHandler.java",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/ClientStreamServiceMain.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/ClientStreamServiceMain.java",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/clientstream/RequestHandler.java",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/serverstream/ServerStreamGRPCService.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/serverstream/ServerStreamServiceMain.java~",
+    "javacode/grpc/grpc-server/src/main/java/dk/johannes/bidirectional/BidirectionalStreamGRPCService.java~",
     "notes/git/settings/github-settings.md",
     "notes/git/settings/img_1.png",
     "notes/git/settings/img.png",
@@ -185,12 +186,10 @@
     "notes/GRPC/images/Pasted image 20240721114150.png",
     "notes/GRPC/images/Pasted image 20240720120650.png",
     "notes/GRPC/images/Pasted image 20240720120013.png",
-    "notes/GRPC/What is GRPC.md",
     "notes/Diary and Todo/Open questions.md",
     "javacode/grpc/proto-playground/README.md",
     "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/grpc/myfirstgrpc/README.md",
-    "notes/Diary and Todo/Want to explore TODO.md",
     "javacode/multithreading/error-handling/Pasted image 20240713222310.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713230650.png",
     "notes/Concurrency (Java)/images/Pasted image 20240713214956.png",

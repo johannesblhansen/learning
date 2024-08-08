@@ -1,4 +1,4 @@
-package dk.johannes;
+package dk.johannes.serverstream;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;

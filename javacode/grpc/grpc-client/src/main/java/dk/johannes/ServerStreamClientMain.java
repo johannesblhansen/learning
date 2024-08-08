@@ -12,7 +12,7 @@ import java.time.Duration;
 /**
  * Async client used for server streaming
  */
-public class AsyncUnaryClientMain {
+public class ServerStreamClientMain {
     public static void main(String[] args) throws InterruptedException {
 
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 6565).usePlaintext().build();

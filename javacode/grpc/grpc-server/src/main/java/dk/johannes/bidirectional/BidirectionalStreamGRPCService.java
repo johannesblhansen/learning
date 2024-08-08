@@ -1,11 +1,11 @@
-package dk.johannes;
+package dk.johannes.bidirectional;
 
 import dk.johannes.proto.stream.MyBidirectionalStreamRequest;
 import dk.johannes.proto.stream.MyBidirectionalStreamResponse;
 import dk.johannes.proto.stream.MyBidirectionalStreamServiceNameGrpc;
 import io.grpc.stub.StreamObserver;
 
-public class ServerBidirectionalStreamGRPCService extends MyBidirectionalStreamServiceNameGrpc.MyBidirectionalStreamServiceNameImplBase {
+public class BidirectionalStreamGRPCService extends MyBidirectionalStreamServiceNameGrpc.MyBidirectionalStreamServiceNameImplBase {
 
 
     @Override

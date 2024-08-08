@@ -1,4 +1,4 @@
-package dk.johannes;
+package dk.johannes.serverstream;
 
 import dk.johannes.proto.stream.MyStreamRequest;
 import dk.johannes.proto.stream.MyStreamResponse;
