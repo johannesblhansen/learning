@@ -12,8 +12,15 @@ The exposes kafka-ui on localhost:8080
 
 To start the cluster
 
+NOTE: If on windows docker compose might be docker-compose
+
 ```
-docker-compose -f kafka-ui-with-external-working.yml up
+docker compose -f kafka-ui-with-external-working.yml up
+```
+
+NOTE: Check for residual volumes from earlier starts. If any volumes related to kafka ui or kafka zookeeper is present, they need to be removed.
+```
+docker volume ls
 ```
 
 To use the cli first connect to the container
@@ -43,7 +50,7 @@ I managed to get the up and running by following guide.
 
 To start the 2 kafka brokers and kafka-ui:
 ```
-docker-compose -f kafka-ui-test.yml up
+docker compose -f kafka-ui-test.yml up
 ```
 
 To execute kafka-cli commands exec into one of the docker containers found using docker ps.
