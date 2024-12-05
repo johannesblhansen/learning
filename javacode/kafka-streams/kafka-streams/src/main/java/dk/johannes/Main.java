@@ -8,6 +8,7 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.Consumed;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.Produced;
+import org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter;
 
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
@@ -26,13 +27,14 @@ public class Main {
                     System.out.println("Hello here is the key and value: " + key + " - " + value);
                 })
                 .mapValues(s -> s.toUpperCase())
+                .transform(new TransformerSupplierAdapter<>())
                 .peek((key, value) -> {
                     System.out.println("Hello here is the key and value: " + key + " - " + value);
                 })
                 .to("johannesoutput", Produced.with(stringSerde, stringSerde));
 
 
-        final KafkaStreams streams = new KafkaStreams(builder.build(), getProps());"".toUpperCase();
+        final KafkaStreams streams = new KafkaStreams(builder.build(), getProps());
         final CountDownLatch latch = new CountDownLatch(1);
 
 //        // attach shutdown handler to catch control-c
@@ -48,6 +50,7 @@ public class Main {
             streams.start();
             latch.await();
         } catch (InterruptedException e) {
+            streams.close();
             throw new RuntimeException(e);
         }
     }
