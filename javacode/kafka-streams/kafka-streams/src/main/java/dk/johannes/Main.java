@@ -27,7 +27,7 @@ public class Main {
                     System.out.println("Hello here is the key and value: " + key + " - " + value);
                 })
                 .mapValues(s -> s.toUpperCase())
-                .transform(new TransformerSupplierAdapter<>())
+//                .transform(new TransformerSupplierAdapter<>())
                 .peek((key, value) -> {
                     System.out.println("Hello here is the key and value: " + key + " - " + value);
                 })
