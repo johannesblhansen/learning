@@ -165,9 +165,9 @@
   "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
     "javacode/frontend/show-notifications-frontend/README.md~",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
     "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.java~",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/ShowNotificationsFrontendApplication.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaConsumerConfig.class",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka",
     "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MySomethingHappenedEvent.class",
