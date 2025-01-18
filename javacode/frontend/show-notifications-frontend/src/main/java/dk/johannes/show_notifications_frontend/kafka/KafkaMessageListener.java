@@ -16,7 +16,7 @@ public class KafkaMessageListener {
 
     @KafkaListener(topics = "topicNumber2")
     public void listenForMessage(String message) {
-        log.info("Received Message in group foo: {}", message);
+        log.info("Received Kafka Message: {}", message);
         publisher.publishEvent(new MySomethingHappenedEvent(this, message));
     }
 }

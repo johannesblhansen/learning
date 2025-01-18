@@ -1,7 +1,9 @@
 ### Display Notification Project
 Project building a hello world'ish tutorials together. The project collects inputs from different input sources 
-(REST api, STOMP client message, kafka topic and gRPC (to come)) puts them on websocket STOMP topic. 
-There is a very basic front end that uses a websocket to show messages in real time.
+(REST api, STOMP client message, kafka topic and gRPC (to come)) puts them on websocket STOMP topic.
+
+There is a very basic frontend that uses a websocket to show messages in real time. The frontend can be found on 
+localhost:7000
 
 #### Spring events
 https://www.baeldung.com/spring-events

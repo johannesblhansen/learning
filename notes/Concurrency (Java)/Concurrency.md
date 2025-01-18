@@ -1,4 +1,4 @@
-#main_page #core_concepts 
+#main_page #core_concepts #concurrency 
 
 [Course followed](https://alm.udemy.com/course/java-multithreading-concurrency-performance-optimization/learn/lecture/10187964#overview)
 
