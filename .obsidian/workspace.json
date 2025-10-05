@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "16f1068ec116cc34",
+        "id": "cbfd5f0c51f2253b",
         "type": "tabs",
         "children": [
           {
-            "id": "be2b32429887d425",
+            "id": "b2496dfbe39fc9a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
+                "file": "notes/Concurrency (Java)/Concurrency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Boot embedded Tomcat"
+              "title": "Concurrency"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "streams",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,21 +164,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2d98c62b2b7d4e2",
+  "active": "b2496dfbe39fc9a0",
   "lastOpenFiles": [
-    "javacode/frontend/show-notifications-frontend/README.md~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.class",
-    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/kafka/KafkaMessageListener.java~",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/ShowNotificationsFrontendApplication.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka/KafkaConsumerConfig.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/kafka",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MySomethingHappenedEvent.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing/MyInternalEventListener.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/springeventing",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/websocket/WebSocketConfig.class",
-    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/core/EventStringData.class",
+    "notes/AI/AI.md",
+    "Java Programming.md",
+    "README.md",
+    "notes/docker/Docker.md",
+    "notes/Diary and Todo/Want to explore TODO.md",
+    "notes/Diary and Todo/Open questions.md",
+    "notes/Diary and Todo/Booklist.md",
+    "docker-services/kafka-ui/README.md",
+    "2025-09-13.md",
+    "Untitled.base",
+    "javacode/grpc/grpc-server/grpc-server.iml~",
     "notes/Concurrency (Java)/Concurrency.md",
+    "notes/AI",
+    "notes/Concurrency (Java)/The Theory.md",
     "notes/java/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/generator/MyRunnable.class",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/generator/GeneratorStarterComponent.class",
+    "javacode/frontend/show-notifications-frontend/target/classes/dk/johannes/show_notifications_frontend/generator",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/generator/GeneratorStarterComponent.java~",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/generator/GeneratorStarterComponent.java",
+    "javacode/frontend/show-notifications-frontend/src/main/java/dk/johannes/show_notifications_frontend/generator",
+    "javacode/rest/producer-service/README.md~",
     "notes/java/JVM Threads and Profiling/JVM Threads And Profiling.md",
     "javacode/rest/basic-rest-app/README.md",
     "notes/Examples/Spring REST service.md",
@@ -186,21 +197,12 @@
     "notes/Concurrency (Java)/Performance Optimization.md",
     "notes/Concurrency (Java)/programming notes/Thread Creation.md",
     "notes-books/leadership/Become an Effective Software Engineering Manager/4 - One-to-Ones.md",
-    "notes/Concurrency (Java)/The Theory.md",
     "notes/kubernetes/Kubernetes.md",
     "notes/kubernetes/images/Pasted image 20240706115434.png",
     "notes/kubernetes/Concepts and Architecture.md",
     "notes-books/leadership/Become an Effective Software Engineering Manager/0 - Overview.md",
     "notes-books/leadership/Become an Effective Software Engineering Manager/1 - Getting Oriented.md",
-    "Java Programming.md",
     "notes/kafka/Kafka Streams/Kafka Streams.md",
-    "notes/kafka/Theory/Brokers.md",
-    "notes/kafka/Kafka.md",
-    "README.md",
-    "javacode/kafka/kafka/README.md",
-    "docker-services/kafka-ui/README.md",
-    "notes/docker/images and containers/Example1. Using a base image.md",
-    "notes/docker/images and containers/Images and containers.md",
     "notes/git/settings/img_1.png",
     "notes/git/settings/img.png",
     "notes/GRPC/images/Pasted image 20240723203038.png",
