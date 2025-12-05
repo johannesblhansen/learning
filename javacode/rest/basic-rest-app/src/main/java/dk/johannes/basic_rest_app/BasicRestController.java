@@ -12,8 +12,8 @@ import org.springframework.web.client.RestTemplate;
 public class BasicRestController {
 
     //Used for testing variables from docker
-    @Value("${my.env.thing}")
-    private String myEnvThingString;
+//    @Value("${my.env.thing}")
+//    private String myEnvThingString;
 
     private final AsyncRestGetter asyncRestGetter;
 
@@ -23,7 +23,7 @@ public class BasicRestController {
 
     @GetMapping("/hello")
     public ResponseEntity<String> getHello(){
-        System.out.println(myEnvThingString);
+  //      System.out.println(myEnvThingString);
         RestTemplate restTemplate = new RestTemplate();
         //The my-producer-container is the url to be used inside a docker container, not used when starting directly on the machine
 //        ResponseEntity<String> forEntity = restTemplate.getForEntity("http://my-producer-container:8085/getSomething", String.class); //Todo make property
