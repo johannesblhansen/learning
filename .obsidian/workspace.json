@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Java coding examples/Spring/Spring Backend Connector Project.md",
+                "file": "notes/docker/docker compose/Docker Compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Backend Connector Project"
+              "title": "Docker Compose"
             }
           }
         ]
@@ -166,8 +166,18 @@
   },
   "active": "65816b7842ac37ee",
   "lastOpenFiles": [
-    "docker-services/kafka-ui/README.md",
+    "docker-services/postgres/readme.md~",
+    "docker-services/postgres/readme.md",
+    "docker-services/readme.md",
+    "docker-services/postgres",
+    "notes/docker/Docker.md",
+    "notes/docker/homegrown examples/simple rest app/Dockerizing a simple app.md",
+    "notes/docker/manage image and containers/Managing images and containers (Docker CLI).md",
+    "notes/docker/manage image and containers/Example3. Interactive mode.md",
+    "notes/docker/images and containers/Images and containers.md",
+    "notes/docker/What is Docker.md",
     "notes/Java coding examples/Spring/Spring Backend Connector Project.md",
+    "docker-services/kafka-ui/README.md",
     "notes/Java coding examples/Spring/Spring REST service.md",
     "javacode/frontend/show-notifications-frontend/README.md~",
     "javacode/frontend/show-notifications-frontend/README.md",
@@ -184,7 +194,6 @@
     "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app",
     "javacode/rest/basic-rest-app/target/classes/dk/johannes",
     "javacode/rest/basic-rest-app/target/classes/dk",
-    "javacode/rest/basic-rest-app/target/generated-sources/annotations",
     "javacode/rest/producer-service/README.md",
     "notes/AI/AI.md",
     "notes/Concurrency (Java)/programming notes/Thread Creation.md",
@@ -193,17 +202,8 @@
     "notes/Concurrency (Java)/Performance Optimization.md",
     "notes/Concurrency (Java)/Resource Sharing.md",
     "notes/Concurrency (Java)/The Problems.md",
-    "notes/Concurrency (Java)/Performance Optimization - Throughput.md",
-    "notes/Concurrency (Java)/Performance Optimization - Latency.md",
-    "notes/Concurrency (Java)/The Theory.md",
-    "notes/GRPC/What is GRPC.md",
-    "notes/GRPC/GRPC.md",
-    "notes/git/gitignore/gitignore.md",
-    "notes/git/gitignore/settings/github-settings.md",
     "notes/git/gitignore/settings/img_1.png",
     "notes/git/gitignore/settings/img.png",
-    "notes/git/Git.md",
-    "notes/docker/Docker.md",
     "notes/kubernetes/images/Pasted image 20240706115434.png",
     "notes/GRPC/images/Pasted image 20240723203038.png",
     "notes/GRPC/images/Pasted image 20240722090459.png",
