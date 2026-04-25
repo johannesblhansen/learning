@@ -11,14 +11,10 @@
             "id": "65816b7842ac37ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/docker/docker compose/Docker Compose.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker Compose"
+              "title": "New tab"
             }
           }
         ]
@@ -164,8 +160,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65816b7842ac37ee",
+  "active": "c2d98c62b2b7d4e2",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "README.md",
+    "notes/AI/Code with Tim tools he uses vid.md",
+    "notes/AI/AI.md",
+    "Java Programming.md",
+    "notes/linux/Tools.md",
+    "notes/security/Https.md",
+    "notes/wsl/WSL 2.md",
+    "notes/Diary and Todo/Booklist.md",
+    "notes/Diary and Todo/Open questions.md",
+    "notes/Diary and Todo/Want to explore TODO.md",
+    "notes/docker/docker compose/Docker Compose.md",
+    "javacode/grpc/grpc-client/grpc-client.iml~",
+    "javacode/grpc/grpc-server/grpc-server.iml~",
     "docker-services/postgres/readme.md~",
     "docker-services/postgres/readme.md",
     "docker-services/readme.md",
@@ -183,25 +194,9 @@
     "javacode/frontend/show-notifications-frontend/README.md",
     "javacode/kafka/spring-kafka/basic-kafka-producer/README.md",
     "javacode/rest/basic-rest-app/README.md",
-    "notes/Java coding examples/JVM Threads and Profiling/Spring Boot embedded Tomcat.md",
-    "notes/Java coding examples/JVM Threads and Profiling/JVM Threads And Profiling.md",
-    "Untitled 1.base",
-    "javacode/multithreading/error-handling/README.md",
     "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestController.class",
     "javacode/rest/basic-rest-app/src/main/java/dk/johannes/basic_rest_app/BasicRestController.java~",
     "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/AsyncRestGetter.class",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app/BasicRestAppApplication.class",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes/basic_rest_app",
-    "javacode/rest/basic-rest-app/target/classes/dk/johannes",
-    "javacode/rest/basic-rest-app/target/classes/dk",
-    "javacode/rest/producer-service/README.md",
-    "notes/AI/AI.md",
-    "notes/Concurrency (Java)/programming notes/Thread Creation.md",
-    "notes/Concurrency (Java)/programming notes/Joining Threads.md",
-    "notes/Concurrency (Java)/Concurrency.md",
-    "notes/Concurrency (Java)/Performance Optimization.md",
-    "notes/Concurrency (Java)/Resource Sharing.md",
-    "notes/Concurrency (Java)/The Problems.md",
     "notes/git/gitignore/settings/img_1.png",
     "notes/git/gitignore/settings/img.png",
     "notes/kubernetes/images/Pasted image 20240706115434.png",

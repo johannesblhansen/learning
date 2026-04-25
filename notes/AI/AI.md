@@ -19,4 +19,7 @@ Reasoning - Acting (Via tools) - Iteration
 **MCP**
 A protocal for LLM to talk to external tools.
 
+**Skills**
+
+
 
